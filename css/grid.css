@@ -4,8 +4,14 @@
     position:relative;
     margin-left:10px;
     margin-right:10px;
-    border: solid black;
+    /*border: solid black;*/
     background-color: #999999;
+}
+
+/* Grid Layout is four columns wide. */
+
+.grid .grid-1 {
+    width: 220px;
 }
 
 
