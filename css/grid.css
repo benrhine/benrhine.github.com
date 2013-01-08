@@ -6,3 +6,19 @@
     margin-rhine:10px;
     border: solid black;
 }
+
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.layout {
+    *zoom: 1;
+}
+
+.layout:before,
+.layout:after {
+    content: "";
+    display: table;
+}
+
+.layout:after {
+    clear: both;
+}
