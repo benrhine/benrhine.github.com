@@ -1,0 +1,8 @@
+.grid-1 {
+    display:inline;
+    float:left;
+    position:relative;
+    margin-left:10px;
+    margin-rhine:10px;
+    border: solid black;
+}
