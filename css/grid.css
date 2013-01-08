@@ -3,8 +3,9 @@
     float:left;
     position:relative;
     margin-left:10px;
-    margin-rhine:10px;
+    margin-right:10px;
     border: solid black;
+    background-color: #999999;
 }
 
 
