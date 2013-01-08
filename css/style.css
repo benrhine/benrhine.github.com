@@ -1,3 +1,27 @@
 html {
     background-color: #181818;  
 }
+
+body {
+    
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+#wrapper {
+    position: relative;
+    width:    960px;
+    margin:   0 auto;
+    padding:  20px 0;
+}
+
+#main {
+    height:   400px;
+    text-align: center;
+}
