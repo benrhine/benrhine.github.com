@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    
+    color: #666;
+    min-width:960px;
 }
 
 h1 {
