@@ -5,25 +5,29 @@
     margin-left:10px;
     margin-right:10px;
     /*border: solid black;*/
-    background-color: #999999;
+    /*background-color: #999999;*/
 }
 
 /* Grid Layout is four columns wide. */
 
 .grid .grid-1 {
     width: 220px;
+    background-color: #999999;
 }
 
 .grid .grid-2 {
     width: 460px;
+    background-color: #999999;
 }
 
 .grid .grid-3 {
     width: 700px;
+    background-color: #999999;
 }
 
 .grid .grid-4 {
     width: 940px;
+    background-color: #999999;
 }
 
 
