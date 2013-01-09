@@ -1,5 +1,6 @@
 .grid-1, .grid-2, .grid-3, .grid-4 {
-    display: inline;
+    display:inline;
+    float: left;
     position:relative;
     margin-left:10px;
     margin-right:10px;
