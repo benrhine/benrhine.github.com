@@ -53,6 +53,30 @@ h2 {
     background-color: #999999;
 }
 
+#photos {
+    height:   200px;
+    text-align: center;
+    background-color: #999999;
+}
+
+#linkedIn {
+    height:   200px;
+    text-align: center;
+    background-color: #999999;
+}
+
+#contact {
+    height:   200px;
+    text-align: center;
+    background-color: #999999;
+}
+
+#twitter {
+    height:   200px;
+    text-align: center;
+    background-color: #999999;
+}
+
 header {
     margin: 0;
     padding: 0;
