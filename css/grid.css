@@ -8,6 +8,14 @@
     /*background-color: #999999;*/
 }
 
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
 /* Grid Layout is four columns wide. */
 
 .grid .grid-1 {
