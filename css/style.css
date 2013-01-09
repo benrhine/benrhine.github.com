@@ -56,24 +56,28 @@ h2 {
 #photos {
     height:   200px;
     text-align: center;
+    margin-top: 20px;
     background-color: #999999;
 }
 
 #linkedIn {
     height:   200px;
     text-align: center;
+    margin-top: 20px;
     background-color: #999999;
 }
 
 #contact {
     height:   200px;
     text-align: center;
+    margin-top: 20px;
     background-color: #999999;
 }
 
 #twitter {
     height:   200px;
     text-align: center;
+    margin-top: 20px;
     background-color: #999999;
 }
 
