@@ -25,26 +25,31 @@ h2 {
 #main {
     height:   400px;
     text-align: center;
+    background-color: #999999;
 }
 
 #me {
     height:   300px;
     text-align: center;
+    background-color: #999999;
 }
 
 #facebook {
     height:   300px;
     text-align: center;
+    background-color: #999999;
 }
 
 #resume {
     height:   300px;
     text-align: center;
+    background-color: #999999;
 }
 
 #long {
     height:   80px;
     text-align: center;
+    background-color: #999999;
 }
 
 header {
