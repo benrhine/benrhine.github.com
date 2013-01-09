@@ -27,6 +27,26 @@ h2 {
     text-align: center;
 }
 
+#me {
+    height:   300px;
+    text-align: center;
+}
+
+#facebook {
+    height:   300px;
+    text-align: center;
+}
+
+#resume {
+    height:   300px;
+    text-align: center;
+}
+
+#long {
+    height:   80px;
+    text-align: center;
+}
+
 header {
     margin: 0;
     padding: 0;
