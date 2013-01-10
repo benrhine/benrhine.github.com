@@ -43,7 +43,7 @@ h2 {
 #facebook {
     height:   200px;
     text-align: center;
-    background-color: #999999;
+    background-image: url('../image/facebook.png');
     
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -52,7 +52,7 @@ h2 {
 #resume {
     height:   200px;
     text-align: center;
-    background-color: #999999;
+    background-image: url('../image/resume.png');
     
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -82,7 +82,7 @@ h2 {
     height:   200px;
     text-align: center;
     margin-top: 20px;
-    background-color: #999999;
+    background-image: url('../image/linkedIn.png');
     
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -102,7 +102,7 @@ h2 {
     height:   200px;
     text-align: center;
     margin-top: 20px;
-    background-color: #999999;
+    background-image: url('../image/twitter.png');
     
     -moz-border-radius: 15px;
     border-radius: 15px;
