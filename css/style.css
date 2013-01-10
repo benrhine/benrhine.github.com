@@ -163,6 +163,34 @@ h2 {
     visibility: hidden;
 }
 
+#twitter_updates {
+   width: 415px;
+   padding: 0;
+   overflow: hidden;
+   font-family: Georgia;
+   font-size: 14px;
+   font-style: italic;
+   color: #31353d;
+   line-height: 16px;
+   font-weight:bold;
+}
+
+#twitter_updates li {
+   width: 415px;
+   list-style: none;
+}
+
+#twitter_updates li a {
+   color: #5f6d76;
+   border-bottom: dotted 1px;
+   text-decoration: none;
+}
+
+#twitter_updates li a:hover {
+   color: #31353d;
+   background: #d3f1f9;
+}
+
 header {
     margin: 0;
     padding: 0;
