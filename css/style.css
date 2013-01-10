@@ -34,8 +34,8 @@ h2 {
 #about {
     height:   200px;
     text-align: center;
-    background-image: .image/about.png;
-    
+    background-image: url("image/about.png");
+
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
