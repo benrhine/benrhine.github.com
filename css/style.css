@@ -63,7 +63,7 @@ h2 {
 }
 
 #facebook a h1 {
-    display: none;
+    visibility: hidden;
 }
 
 #resume {
