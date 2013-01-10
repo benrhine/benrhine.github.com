@@ -54,6 +54,10 @@ h2 {
     position: relative;
 }
 
+#facebook:hover {
+    background-color: #D2CDCE;
+}
+
 #facebook a {
     position: absolute;
     top: 0;
