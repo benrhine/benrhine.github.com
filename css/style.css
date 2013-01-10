@@ -62,7 +62,9 @@ h2 {
     width: 220;
 }
 
-
+#facebook a h1 {
+    display: none;
+}
 
 #resume {
     height:   200px;
