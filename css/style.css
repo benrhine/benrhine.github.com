@@ -54,7 +54,7 @@ h2 {
     position: relative;
 }
 
-#fbLink {
+#facebook a {
     position: absolute;
     top: 0;
     left: 0;
@@ -62,7 +62,7 @@ h2 {
     width: 220;
 }
 
-#fbHeader {
+#facebook a h1 {
     display: none;
 }
 
