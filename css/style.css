@@ -109,6 +109,18 @@ h2 {
     border-radius: 15px;
 }
 
+#linkedIn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200;
+    width: 220;
+}
+
+#linkedIn a h1 {
+    visibility: hidden;
+}
+
 #contact {
     height:   200px;
     text-align: center;
@@ -129,6 +141,18 @@ h2 {
     
     -moz-border-radius: 15px;
     border-radius: 15px;
+}
+
+#twitter a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200;
+    width: 220;
+}
+
+#twitter a h1 {
+    visibility: hidden;
 }
 
 header {
