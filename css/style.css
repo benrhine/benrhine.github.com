@@ -33,7 +33,7 @@ h2 {
 
 #about {
     height:   200px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     background-image: url('../image/about.png');
     background-repeat: no-repeat;
@@ -44,13 +44,14 @@ h2 {
 
 #facebook {
     height:   200px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     background-image: url('../image/fbLogo.png');
     background-repeat: no-repeat;
     
     -moz-border-radius: 15px;
     border-radius: 15px;
+    position: relative;
 }
 
 #fbLink {
@@ -67,7 +68,7 @@ h2 {
 
 #resume {
     height:   200px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     background-image: url('../image/resume.png');
     background-repeat: no-repeat;
@@ -98,7 +99,7 @@ h2 {
 
 #linkedIn {
     height:   200px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     margin-top: 20px;
     background-image: url('../image/linkedIn.png');
@@ -120,7 +121,7 @@ h2 {
 
 #twitter {
     height:   200px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     margin-top: 20px;
     background-image: url('../image/twitter.png');
