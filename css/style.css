@@ -52,6 +52,7 @@ h2 {
     -moz-border-radius: 15px;
     border-radius: 15px;
     position: relative;
+    transition: background-image .25s ease-in-out;
 }
 
 #facebook:hover {
