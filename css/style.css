@@ -139,7 +139,7 @@ h2 {
     border-radius: 15px;
 }
 
-#twitter {
+/*#twitter {
     height:   200px;
     width: 200px;
     text-align: center;
@@ -161,7 +161,7 @@ h2 {
 
 #twitter a h1 {
     visibility: hidden;
-}
+}*/
 
 
 /* TWITTER CONTAINER */
@@ -170,7 +170,7 @@ h2 {
     margin    				: 20px 0px 0px 20px;
 	padding		 			: 0px 0px 0px 0px;  
 	position				: relative;
-	background				: url('../images/bkgrnd-twitter.png') top left no-repeat;
+	background				: url('../image/twitter.png') top left no-repeat;
 	display					: block;
 	width					: 340px;	
 	height					: 155px;

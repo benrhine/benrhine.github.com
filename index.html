@@ -69,18 +69,19 @@
                 </div> 
                 
                 <!-- Column 4 -->
-                <div id="twitter" class="grid-1 omega">
+                <!--<div id="twitter" class="grid-1 omega">
                     <a href="https://twitter.com/BenRhine" title="Ben Rhine's Twitter">
                         <h1>Ben Rhine's Twitter</h1>
                     </a>
+                </div>--> 
+                <div class="grid twitter-feed">
+                    <ul id="twitter_update_list" class="rotate"></ul> 
+                    <a class="twitter-bird" title="Visit us on Twitter"
+                    href="http://twitter.com/BenRhine" target="_blank">Visit us</a>
                 </div> 
             </div>
             
-            <div class="grid twitter-feed">
-                <ul id="twitter_update_list" class="rotate"></ul> 
-                <a class="twitter-bird" title="Visit us on Twitter"
-                href="http://twitter.com/BenRhine" target="_blank">Visit us</a>
-            </div>  
+             
         <!-- Twitter Feed -->
         <script src="scripts/twitter-feed.js" type="text/javascript"></script>
         <script src="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=BenRhine&include_rts=true&count=4&callback=twitterCallback2" type="text/javascript"></script>
