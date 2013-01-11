@@ -171,9 +171,11 @@ h2 {
 	padding		 			: 0px 0px 0px 0px;  
 	position				: relative;
 	background				: url('../image/twitter.png') top left no-repeat;
-	display					: block;
-	width					: 340px;	
-	height					: 155px;
+    background-repeat: no-repeat;
+	width					: 200px;	
+	height					: 200px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 /* TWITTER LIST */
 ul#twitter_update_list
