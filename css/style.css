@@ -52,9 +52,10 @@ h2 {
     -moz-border-radius: 15px;
     border-radius: 15px;
     position: relative;
-    transition: background-image 1.25s ease-in-out;
-    -moz-transition: background-image 1.25s ease-in-out;
-    -webkit-transition: background-image 1.25s ease-in-out;
+    transition-property: background-image 1.25s ease-in-out;
+    -moz-transition-property: background-image 1.25s ease-in-out;
+    -webkit-transition-property: background-image 1.25s ease-in-out;
+    -o-transition-property: background-image 1.25s ease-in-out;
 }
 
 #facebook:hover {
