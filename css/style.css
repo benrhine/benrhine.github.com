@@ -42,6 +42,18 @@ h2 {
     border-radius:      15px;    
 }
 
+.hidden-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200;
+    width: 220;
+}
+
+.hidden-link h1 {
+    visibility: hidden;
+}
+
 #about {
     background-image: url('../image/about.png');
 }
@@ -57,18 +69,6 @@ h2 {
 
 #facebook:hover {
     background-image: url('../image/resume.png');
-}
-
-#facebook a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200;
-    width: 220;
-}
-
-#facebook a h1 {
-    visibility: hidden;
 }
 
 #resume {
@@ -94,19 +94,6 @@ h2 {
     margin-top: 20px;
     background-image: url('../image/linkedIn.png');
 }
-
-#linkedIn a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200;
-    width: 220;
-}
-
-#linkedIn a h1 {
-    visibility: hidden;
-}
-
 #contact {
     margin-top: 20px;
     background-color: #999999;
@@ -122,14 +109,6 @@ h2 {
     
     -moz-border-radius: 15px;
     border-radius: 15px;
-}
-
-#twitter a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200;
-    width: 220;
 }
 
 #twitter a h1 {
