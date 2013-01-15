@@ -50,7 +50,7 @@ h2 {
     width: 220;
 }
 
-.hidden-link h1 {
+.hidden-link .h1 {
     visibility: hidden;
 }
 
