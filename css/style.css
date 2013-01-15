@@ -116,11 +116,11 @@ h2 {
 /* TWITTER CONTAINER */
 .twitter-feed
 {
-    margin    				: 20px 0px 0px 20px;
+    /*margin    				: 20px 0px 0px 20px;*/
 	padding		 			: 0px 0px 0px 0px;  
 	position				: relative;
 	background				: url('../image/twitter.png') top right no-repeat;
-	width					: 200px;	
+	width					: 220px;	
 	height					: 200px;
     -moz-border-radius: 15px;
     border-radius: 15px;
