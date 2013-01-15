@@ -31,26 +31,23 @@ h2 {
     border-radius: 15px;
 }
 
-#about {
-    height:   200px;
-    width: 200px;
-    text-align: center;
-    background-image: url('../image/about.png');
-    background-repeat: no-repeat;
-
+/*All my Boxs */
+.square-modal {
+    height:             200px;
+    width:              200px;
+    text-align:         center;
+    background-repeat:  no-repeat;
+    
     -moz-border-radius: 15px;
-    border-radius: 15px;
+    border-radius:      15px;    
+}
+
+#about {
+    background-image: url('../image/about.png');
 }
 
 #facebook {
-    height:   200px;
-    width: 200px;
-    text-align: center;
     background-image: url('../image/fbLogo.png');
-    background-repeat: no-repeat;
-    
-    -moz-border-radius: 15px;
-    border-radius: 15px;
     position: relative;
     transition-property: background-image 1.25s ease-in-out;
     -moz-transition-property: background-image 1.25s ease-in-out;
@@ -60,7 +57,6 @@ h2 {
 
 #facebook:hover {
     background-image: url('../image/resume.png');
-    background-repeat: no-repeat;
 }
 
 #facebook a {
@@ -76,14 +72,7 @@ h2 {
 }
 
 #resume {
-    height:   200px;
-    width: 200px;
-    text-align: center;
     background-image: url('../image/resume.png');
-    background-repeat: no-repeat;
-    
-    -moz-border-radius: 15px;
-    border-radius: 15px;
 }
 
 #long {
@@ -97,25 +86,13 @@ h2 {
 }
 
 #photos {
-    height:   200px;
-    text-align: center;
     margin-top: 20px;
     background-color: #999999;
-    
-    -moz-border-radius: 15px;
-    border-radius: 15px;
 }
 
 #linkedIn {
-    height:   200px;
-    width: 200px;
-    text-align: center;
     margin-top: 20px;
     background-image: url('../image/linkedIn.png');
-    background-repeat: no-repeat;
-    
-    -moz-border-radius: 15px;
-    border-radius: 15px;
 }
 
 #linkedIn a {
@@ -131,13 +108,8 @@ h2 {
 }
 
 #contact {
-    height:   200px;
-    text-align: center;
     margin-top: 20px;
     background-color: #999999;
-    
-    -moz-border-radius: 15px;
-    border-radius: 15px;
 }
 
 /*#twitter {
