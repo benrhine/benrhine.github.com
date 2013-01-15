@@ -94,7 +94,7 @@ h2 {
 }
 #contact {
     margin-top: 20px;
-    background-color: #999999;
+    background: -webkit-linear-gradient(#eee, #333);
 }
 
 /*#twitter {
