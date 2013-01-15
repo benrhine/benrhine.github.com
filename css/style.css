@@ -31,7 +31,7 @@ h2 {
 /*All my Boxs */
 .square-modal {
     height:             200px;
-    width:              220px;
+    width:              200px;
     text-align:         center;
     background-repeat:  no-repeat;
     
@@ -44,7 +44,7 @@ h2 {
     top: 0;
     left: 0;
     height: 200;
-    width: 220;
+    width: 200;
 }
 
 .hidden-link h1 {
@@ -116,6 +116,7 @@ h2 {
 /* TWITTER CONTAINER */
 .twitter-feed
 {
+    margin-top: 20px;
     /*margin    				: 20px 0px 0px 20px;*/
 	padding		 			: 0px 0px 0px 0px;  
 	position				: relative;
