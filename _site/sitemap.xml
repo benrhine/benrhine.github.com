@@ -2,9 +2,9 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/blog/welcome-to-massively-the-jekyll-theme/</loc>
+      <loc>/blog/initial-post/</loc>
       
-        <lastmod>2017-10-31T00:00:00-04:00</lastmod>
+        <lastmod>2020-05-19T00:00:00-04:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
@@ -13,7 +13,7 @@
   
     <url>
       <loc>/about/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
+       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -23,7 +23,7 @@
   
     <url>
       <loc>/blog/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
+       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -43,7 +43,7 @@
   
     <url>
       <loc>/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
+       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
