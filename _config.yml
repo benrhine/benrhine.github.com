@@ -3,8 +3,12 @@ title:              Ben Rhine
 bio:                'Leader / Developer / Tinkerer / DJ / Streamer / Geek'
 description:        "Leader / Developer / Tinkerer / DJ / Streamer / Geek"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl:            "" # the subpath of your site, e.g. /blog
+url:                "https://benrhine.com" # the base hostname & protocol for your site
+blog-header:        "Whats on my mind?"
+blog-description:   "This could be anything from tech tutorials and intertesting technologies to my thoughts on politics and religion and whatever may be on mind."
+blog-content-one: ""
+blog-content-two: ""
 
 # Comments
 disqus_shortname:   default
