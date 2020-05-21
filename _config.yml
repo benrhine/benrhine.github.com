@@ -1,14 +1,19 @@
 # Site
 title:              Ben Rhine
 bio:                'Leader / Developer / Tinkerer / DJ / Streamer / Geek'
-description:        "Leader / Developer / Tinkerer / DJ / Streamer / Geek"
+description:        "Ben is a seasoned polyglot developer and development team lead with more than a decade of experience under his belt. He has worked across the board from small startups to multiple Fortune 100 companies. He specializes in Java and Groovy on Grails development with excelent Javascript skills across several major frameworks."
 locale:             en_US
 baseurl:            "" # the subpath of your site, e.g. /blog
 url:                "https://benrhine.com" # the base hostname & protocol for your site
 blog-header:        "Whats on my mind?"
 blog-description:   "This could be anything from tech tutorials and intertesting technologies to my thoughts on politics and religion and whatever may be on mind."
-blog-content-one: ""
-blog-content-two: ""
+blog-content-one:   ""
+blog-content-two:   ""
+tab-title-one:      "Home"
+tab-title-two:      "About"
+tab-title-three:    "Blog"
+featured:    "Bring me on for your next project"
+featured-description: ""
 
 # Comments
 disqus_shortname:   default
@@ -19,6 +24,7 @@ twitter:            benrhine
 facebook:           default
 instagram:          default
 github:             benrhine
+linkedin:           benrhine
 
 # personal
 location:           Columbus, OH
