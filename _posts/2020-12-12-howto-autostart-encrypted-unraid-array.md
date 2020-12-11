@@ -19,19 +19,19 @@ To start create a simple text file on your local machine named `keyfile` (with n
 <span class="image right"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-<span class="image center"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Then select `Get link`
 
-<span class="image center"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
 And from the link page make sure you change the setting from `Restricted` to `Anyone with the link`
 
 Now from here you just need to grab your file id (grayed out above), it should be between the `/d/` and `/view...` in the shared url. At this point you are done with creating your keyfile.
 
 Now from your Unraid page open terminal
-<span class="image center"><img src="{{ "/images/unraid-002-open-terminal.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/unraid-002-open-terminal.png" | absolute_url }}" alt="" /></span>
 
 From terminal type the following command ie `vi /boot/config/go`
-<span class="image center"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
 
 Once vi is open press `i` to `INSERT` into your file and add the following to your go file `wget 'https://docs.google.com/uc?export=download&id=YOUR-FILE-ID-HERE' -O /root/keyfile`. After having added the `wget` line press the escape key to get out of insert mode then press `:wq` to write your file and quite back to terminal.
 
@@ -42,9 +42,9 @@ Second Note: I'm not certain what version of vi Unraid has installed but its old
 <span class="image center"><img src="{{ "/images/unraid-002-wget-keyfile.png" | absolute_url }}" alt="" /></span>
 
 At this point all the command line work is done now go back to your unraid in the browser and click `Settings` followed by `Disk Settings`.
-<span class="image center"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
 
 Once in `Disk Settings` set `Enable auto start` to yes and click apply.
-<span class="image center"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
 
 Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.
