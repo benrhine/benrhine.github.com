@@ -15,15 +15,13 @@ Real quick why would you want to auto mount your encrypted array? Well there may
 <span class="image left"><img src="{{ "/images/unraid-002-sample-pass.png" | absolute_url }}" alt="" /></span>
 
 To start create a simple text file on your local machine named `keyfile` (with no extensions) and insert your passphrase, save. It is highly suggested that you do this using either SublimeText or Notepad++ as it is very important there are no empty spaces, tabs, or new lines in the file. It should look similar to the image to the left (see how there is only a single line? ie 1).
-<br>
-<br>
-<br>
+
 <span class="image left"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-
-<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Then select `Get link`
+<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+
 
 
 <br>
