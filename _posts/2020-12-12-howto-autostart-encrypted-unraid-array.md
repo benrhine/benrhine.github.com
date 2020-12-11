@@ -33,6 +33,11 @@ Then select `Get link`
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <span class="image left"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
 And from the link page make sure you change the setting from "Restricted" to "Anyone with the link"
 
@@ -46,6 +51,11 @@ Now from here you just need to grab your file id (grayed out above), it should b
 Now from your Unraid page open terminal
 <span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
