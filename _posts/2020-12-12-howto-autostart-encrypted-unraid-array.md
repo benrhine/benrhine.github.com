@@ -19,7 +19,7 @@ To start create a simple text file on your local machine named `keyfile` (with n
 <span class="image right"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Then select `Get link`
 
 <span class="image right"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
@@ -39,7 +39,7 @@ Note: You may also use this command `wget --no-check-certificate 'https://docs.g
 
 Second Note: I'm not certain what version of vi Unraid has installed but its oldschool, if you need to delete navigate your cursor over the character to delete and press x. For more details on ancient vi look [here](https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-46/index.html).
 
-<span class="image center"><img src="{{ "/images/unraid-002-wget-keyfile.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/unraid-002-wget-keyfile.png" | absolute_url }}" alt="" /></span>
 
 At this point all the command line work is done now go back to your unraid in the browser and click `Settings` followed by `Disk Settings`.
 <span class="image right"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
