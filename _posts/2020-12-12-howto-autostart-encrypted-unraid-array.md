@@ -21,17 +21,11 @@ To start create a simple text file on your local machine named `keyfile` (with n
 <span class="image left"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-<br>
-<br>
-<br>
-<span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+
+<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Then select `Get link`
 
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
