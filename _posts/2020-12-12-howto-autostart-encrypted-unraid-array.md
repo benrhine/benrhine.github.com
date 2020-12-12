@@ -61,7 +61,10 @@ Second Note: I'm not certain what version of vi Unraid has installed but its old
 At this point all the command line work is done now go back to your unraid in the browser and click `Settings` followed by `Disk Settings`.
 
 <span class="image left"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
+Once in `Disk Settings` set `Enable auto start` to yes and click apply.
 
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -69,6 +72,6 @@ At this point all the command line work is done now go back to your unraid in th
 <br>
 
 <span class="image left"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
-Once in `Disk Settings` set `Enable auto start` to yes and click apply.
+
 
 Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.
