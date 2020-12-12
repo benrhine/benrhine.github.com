@@ -20,9 +20,22 @@ To start create a simple text file on your local machine named `keyfile` (with n
 
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
+<div style="page-break-after: always"></div>
+<br />
+<br />
+<br />
+
 <span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 
 Then select `Get link`
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
 
@@ -30,9 +43,13 @@ And from the link page make sure you change the setting from "Restricted" to "An
 
 Now from here you just need to grab your file id (grayed out above), it should be between the `/d/` and `/view...` in the shared url. At this point you are done with creating your keyfile.
 
+<br />
+
 <span class="image left"><img src="{{ "/images/unraid-002-open-terminal.png" | absolute_url }}" alt="" /></span>
 
 Now from your Unraid page open terminal
+
+<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
 
@@ -51,6 +68,14 @@ At this point all the command line work is done now go back to your unraid in th
 <span class="image left"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
 
 Once in `Disk Settings` set `Enable auto start` to yes and click apply.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
 
