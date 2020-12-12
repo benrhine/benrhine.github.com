@@ -75,7 +75,6 @@ Once in `Disk Settings` set `Enable auto start` to yes and click apply.
 <br />
 <br />
 <br />
-<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
 
