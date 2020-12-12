@@ -55,15 +55,13 @@ Once vi is open press `i` to `INSERT` into your file and add the following to yo
 Note: You may also use this command `wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=YOUR-FILE-ID-HERE' -O /root/keyfile` as suggested [here](https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99) personally I have not found any difference between the two.
 
 Second Note: I'm not certain what version of vi Unraid has installed but its oldschool, if you need to delete navigate your cursor over the character to delete and press x. For more details on ancient vi look [here](https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-46/index.html).
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <span class="image left"><img src="{{ "/images/unraid-002-wget-keyfile.png" | absolute_url }}" alt="" /></span>
 
 At this point all the command line work is done now go back to your unraid in the browser and click `Settings` followed by `Disk Settings`.
+
 <span class="image left"><img src="{{ "/images/unraid-002-disk-settings.png" | absolute_url }}" alt="" /></span>
+
 <br>
 <br>
 <br>
