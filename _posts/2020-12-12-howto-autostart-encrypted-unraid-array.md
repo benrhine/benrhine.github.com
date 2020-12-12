@@ -17,35 +17,22 @@ Real quick why would you want to auto mount your encrypted array? Well there may
 To start create a simple text file on your local machine named `keyfile` (with no extensions) and insert your passphrase, save. It is highly suggested that you do this using either SublimeText or Notepad++ as it is very important there are no empty spaces, tabs, or new lines in the file. It should look similar to the image to the left (see how there is only a single line? ie 1).
 
 <span class="image left"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
+
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-<div style="page-break-after: always"></div>
-<br />
-<br />
-<br />
-
 <span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+
 Then select `Get link`
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <span class="image left"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
+
 And from the link page make sure you change the setting from "Restricted" to "Anyone with the link"
 
 Now from here you just need to grab your file id (grayed out above), it should be between the `/d/` and `/view...` in the shared url. At this point you are done with creating your keyfile.
 
-<br />
-
 <span class="image left"><img src="{{ "/images/unraid-002-open-terminal.png" | absolute_url }}" alt="" /></span>
-Now from your Unraid page open terminal
 
-<br />
+Now from your Unraid page open terminal
 
 <span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
 From terminal type the following command ie `vi /boot/config/go`
