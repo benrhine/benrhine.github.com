@@ -41,11 +41,11 @@ And from the link page make sure you change the setting from "Restricted" to "An
 Now from here you just need to grab your file id (grayed out above), it should be between the `/d/` and `/view...` in the shared url. At this point you are done with creating your keyfile.
 
 <br />
-<br />
-<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-open-terminal.png" | absolute_url }}" alt="" /></span>
 Now from your Unraid page open terminal
+
+<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
 From terminal type the following command ie `vi /boot/config/go`
