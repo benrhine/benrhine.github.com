@@ -35,6 +35,7 @@ Now from here you just need to grab your file id (grayed out above), it should b
 Now from your Unraid page open terminal
 
 <span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
+
 From terminal type the following command ie `vi /boot/config/go`
 
 Once vi is open press `i` to `INSERT` into your file and add the following to your go file `wget 'https://docs.google.com/uc?export=download&id=YOUR-FILE-ID-HERE' -O /root/keyfile`. After having added the `wget` line press the escape key to get out of insert mode then press `:wq` to write your file and quite back to terminal.
@@ -52,6 +53,5 @@ At this point all the command line work is done now go back to your unraid in th
 Once in `Disk Settings` set `Enable auto start` to yes and click apply.
 
 <span class="image left"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
-
 
 Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.
