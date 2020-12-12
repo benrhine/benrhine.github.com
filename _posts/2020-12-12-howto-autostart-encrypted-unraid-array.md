@@ -2,7 +2,7 @@
 layout: post
 title:  "Unraid 002 - How to autostart your encrypted unraid array"
 date:   2020-12-12
-excerpt: "Trying not to forget how this new new Jekyll thing works"
+excerpt: "Save time starting unraid and make remote start easier"
 image: "/images/unraid.jpg"
 ---
 
@@ -79,3 +79,5 @@ Once in `Disk Settings` set `Enable auto start` to yes and click apply.
 <span class="image left"><img src="{{ "/images/unraid-002-disk-auto-start.png" | absolute_url }}" alt="" /></span>
 
 Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.
+
+Finally a shout out to the excellent tutorials by Space Invader One for his excelent tutorials where much of this information is derived from https://www.youtube.com/watch?v=TSlHEBR1yfY
