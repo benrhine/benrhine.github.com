@@ -19,7 +19,7 @@ To start create a simple text file on your local machine named `keyfile` (with n
 <span class="image left"><img src="{{ "/images/unraid-002-google-upload.png" | absolute_url }}" alt="" /></span>
 Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)
 
-<span class="image right"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Then select `Get link`
 
 <span class="image left"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
@@ -29,18 +29,9 @@ Now from here you just need to grab your file id (grayed out above), it should b
 
 <span class="image left"><img src="{{ "/images/unraid-002-google-share.png" | absolute_url }}" alt="" /></span>
 Now from your Unraid page open terminal
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-From terminal type the following command ie `vi /boot/config/go`
+
 <span class="image left"><img src="{{ "/images/unraid-002-go-config.png" | absolute_url }}" alt="" /></span>
+From terminal type the following command ie `vi /boot/config/go`
 
 Once vi is open press `i` to `INSERT` into your file and add the following to your go file `wget 'https://docs.google.com/uc?export=download&id=YOUR-FILE-ID-HERE' -O /root/keyfile`. After having added the `wget` line press the escape key to get out of insert mode then press `:wq` to write your file and quite back to terminal.
 
