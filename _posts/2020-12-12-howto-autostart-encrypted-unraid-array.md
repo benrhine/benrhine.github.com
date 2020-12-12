@@ -32,6 +32,8 @@ Then select `Get link`
 <br />
 <br />
 <br />
+<br />
+<br />
 
 <span class="image left"><img src="{{ "/images/unraid-002-google-settings.png" | absolute_url }}" alt="" /></span>
 And from the link page make sure you change the setting from "Restricted" to "Anyone with the link"
