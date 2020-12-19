@@ -18,7 +18,7 @@ and
 
 Now with both of the above installed we need to configure blackhole as our audio device. If you `CMD-Space` to open spotlight and type `Audio MIDI Setup.app` and open you should see something like the following.
 
-<span class="image center"><img src="{{ "/images/open-midi.png" | absolute_url }}" alt="" /></span>
+<span class="image center"><img src="{{ "/images/open-midi.png" | absolute_url }}" alt="" style="width:500px;height:600px;"/></span>
 
 then
 
