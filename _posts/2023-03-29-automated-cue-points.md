@@ -15,7 +15,7 @@ For those of us who dj most of us should know what cue points are but lets start
 #### Default Rekordbox Cue Point
 <span class="image left"><img src="{{ "/images/track-with-default-rb-cue-point.png" | absolute_url }}" alt="" style="width:500px;height:600px;"/></span>
 
-
+#### Mixed in Key Cue Points
 <span class="image right"><img src="{{ "/images/track-with-cue-points.png" | absolute_url }}" alt="" style="width:500px;height:600px;"/></span>
 
 At a quick glance after having seen the above you may be starting to realize that adding cue points to all of your dj collection might be quite the pain. Now there is certainly something to be said for taking the time and hand setting every cue point to just the way you want to use them and if your getting ready for a live gig that is certainly not a bad consideration. With that being said though, most of us just want to play the music so how do we improve our collection with accurate and usable cue points 95% of the time without spending a lifetime to manually set them all? Thats right we are going to programmatically set them using audio fingprinting to the most common places someone might want them.
