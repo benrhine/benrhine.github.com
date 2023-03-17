@@ -4,8 +4,8 @@ title: Ben Rhine - Training
 description: Courses developed by Ben
 sitemap:
     priority: 0.7
-    lastmod: 2020-05-19
-    changefreq: weekly
+    lastmod: 2023-03-17
+    changefreq: monthly
 ---
 ## Courses by Ben
 

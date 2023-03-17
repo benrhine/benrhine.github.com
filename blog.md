@@ -1,9 +1,9 @@
 ---
 layout: blog
 title: Ben Rhine - Blog Page
-description: Whats on Ben Rhines mind this week.
+description: What's on Ben Rhine's mind this week.
 sitemap:
     priority: 1.0
-    lastmod: 2020-05-19
+    lastmod: 2023-03-17
     changefreq: weekly
 ---

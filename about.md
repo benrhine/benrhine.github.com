@@ -4,7 +4,7 @@ title: Ben Rhine - About
 description: About Ben, his work and hobbies
 sitemap:
     priority: 0.7
-    lastmod: 2020-05-19
+    lastmod: 2023-03-17
     changefreq: weekly
 ---
 ## About Ben
