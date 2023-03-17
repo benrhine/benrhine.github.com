@@ -15,7 +15,7 @@ I am a seasoned polyglot developer and development team lead with more than a de
 I have worked across the board from small startups to multiple Fortune 100 companies. I specialize in Java, Groovy
 on Grails and Kotlin development with excellent Javascript skills across several major frameworks. As of March 2023 I am
 entertaining new roles from IC to Director. In addition, I am currently offering training to companies on how to build
-exceptionally high performing teams through standardized processes and templatize current and future development efforts.
+exceptionally high performing teams through standardized processes and templatized coding examples for current and future development efforts.
 Contact me for details today!!!
 
 In my free time I am an avid media consumer and technology tinkerer. I enjoy working on home automation projects and

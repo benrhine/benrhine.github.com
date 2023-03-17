@@ -12,6 +12,9 @@ blog-content-two:   ""
 tab-title-one:      "Home"
 tab-title-two:      "About"
 tab-title-three:    "Blog"
+tab-title-four:     "Music"
+tab-title-five:     "Projects"
+tab-title-six:      "Consulting"
 featured:    "Bring me on for your next project"
 featured-description: ""
 
@@ -27,7 +30,7 @@ github:             benrhine
 linkedin:           benrhine
 
 # personal
-location:           Columbus, OH
+location:           Denver, CO
 phone:              614-545-8725
 email:              rhine.ben@gmail.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
