@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Unraid 002 - How to autostart your encrypted unraid array</title>
+<meta name="description" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/assets/icon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="http://localhost:4000/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://localhost:4000/assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="http://localhost:4000/" class="logo">Ben Rhine</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <li class=""><a href="http://localhost:4000/">Home</a></li>
+  <li class=""><a href="http://localhost:4000/about/">About</a></li>
+  <li class=""><a href="http://localhost:4000/music/">Music</a></li>
+  <li class=""><a href="http://localhost:4000/projects/">Projects</a></li>
+  <li class=""><a href="http://localhost:4000/training/">Training</a></li>
+  <li class=""><a href="http://localhost:4000/consulting/">Consulting</a></li>
+  <li class=" active "><a href="http://localhost:4000/blog/">Blog</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+  <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+</ul>
+
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">12 Dec 2020</span>
+      				<h1>Unraid 002 - How to autostart your encrypted unraid array</h1>
+      				<p>Save time starting unraid and make remote start easier</p>
+      			</header>
+      			<div class="image main"><img src="/images/unraid.jpg" alt=""></div>
+      			<p><h2 id="how-to-autostart-your-encrypted-unraid-array">How to autostart your encrypted unraid array</h2>
+
+<p>I will eventually come back and make sure these posts are in the correct order but for now they will be close. This goal of these posts is more for me to document my process along the way so I can easily recreate it in the future if need be and to try to help others along the way. As a secondary goal I want to stream line the documentation of doing this as it has taken me quite a bit of time to combine all the pieces of necessary information and I find reading a step by step document much easier than watching youtube videos.</p>
+
+<p>Real quick why would you want to auto mount your encrypted array? Well there may be times you can’t manually login and auth yourself and this also prevents you from auto starting any of your VM’s, additionally its just a pain to have to manually do this on every reboot. Pulling in your keyfile from an outside source maintains reasonable security of your machine because if your machine were to ever be stolen all you would have to do would be to login to your google drive and delete your keyfile to keep the offending party from being able to boot your machine and retrieve your data. With that said lets get started…</p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-sample-pass.png" alt="" /></span></p>
+
+<p>To start create a simple text file on your local machine named <code class="language-plaintext highlighter-rouge">keyfile</code> (with no extensions) and insert your passphrase, save. It is highly suggested that you do this using either SublimeText or Notepad++ as it is very important there are no empty spaces, tabs, or new lines in the file. It should look similar to the image to the left (see how there is only a single line? ie 1).</p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-google-upload.png" alt="" /></span></p>
+
+<p>Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)</p>
+
+<div style="page-break-after: always"></div>
+<p><br />
+<br />
+<br /></p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-google-share.png" alt="" /></span></p>
+
+<p>Then select <code class="language-plaintext highlighter-rouge">Get link</code></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-google-settings.png" alt="" /></span></p>
+
+<p>And from the link page make sure you change the setting from “Restricted” to “Anyone with the link”</p>
+
+<p>Now from here you just need to grab your file id (grayed out above), it should be between the <code class="language-plaintext highlighter-rouge">/d/</code> and <code class="language-plaintext highlighter-rouge">/view...</code> in the shared url. At this point you are done with creating your keyfile.</p>
+
+<p><br /></p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-open-terminal.png" alt="" /></span></p>
+
+<p>Now from your Unraid page open terminal</p>
+
+<p><br /></p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-go-config.png" alt="" /></span></p>
+
+<p>From terminal type the following command ie <code class="language-plaintext highlighter-rouge">vi /boot/config/go</code></p>
+
+<p>Once vi is open press <code class="language-plaintext highlighter-rouge">i</code> to <code class="language-plaintext highlighter-rouge">INSERT</code> into your file and add the following to your go file <code class="language-plaintext highlighter-rouge">wget 'https://docs.google.com/uc?export=download&amp;id=YOUR-FILE-ID-HERE' -O /root/keyfile</code>. After having added the <code class="language-plaintext highlighter-rouge">wget</code> line press the escape key to get out of insert mode then press <code class="language-plaintext highlighter-rouge">:wq</code> to write your file and quite back to terminal.</p>
+
+<p>Note: You may also use this command <code class="language-plaintext highlighter-rouge">wget --no-check-certificate 'https://docs.google.com/uc?export=download&amp;id=YOUR-FILE-ID-HERE' -O /root/keyfile</code> as suggested <a href="https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99">here</a> personally I have not found any difference between the two.</p>
+
+<p>Second Note: I’m not certain what version of vi Unraid has installed but its oldschool, if you need to delete navigate your cursor over the character to delete and press x. For more details on ancient vi look <a href="https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-46/index.html">here</a>.</p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-wget-keyfile.png" alt="" /></span></p>
+
+<p>At this point all the command line work is done now go back to your unraid in the browser and click <code class="language-plaintext highlighter-rouge">Settings</code> followed by <code class="language-plaintext highlighter-rouge">Disk Settings</code>.</p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-disk-settings.png" alt="" /></span></p>
+
+<p>Once in <code class="language-plaintext highlighter-rouge">Disk Settings</code> set <code class="language-plaintext highlighter-rouge">Enable auto start</code> to yes and click apply.</p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p><span class="image left"><img src="http://localhost:4000/images/unraid-002-disk-auto-start.png" alt="" /></span></p>
+
+<p>Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.</p>
+
+<p>Finally a shout out to the excellent tutorials by Space Invader One for his excelent tutorials where much of this information is derived from https://www.youtube.com/watch?v=TSlHEBR1yfY</p>
+</p>
+      		</section>
+
+          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '/blog/howto-autostart-encrypted-unraid-array/';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '/blog/howto-autostart-encrypted-unraid-array/'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://default.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div><!-- /.comments-wrapper -->
+
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li><a href="http://localhost:4000/blog/" class="button">My Blog</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <footer id="footer">
+  <section>
+    <form method="POST" action="https://api.slapform.com/rhine.ben@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+      <input type="hidden" name="slap_redirect" value="http://localhost:4000/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Denver, CO</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="tel:614-545-8725">614-545-8725</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:rhine.ben@gmail.com">rhine.ben@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; HTML5 UP</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
+<script src="http://localhost:4000/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/assets/js/util.js"></script>
+<script src="http://localhost:4000/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FSDNJ7DYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FSDNJ7DYC');
+</script>
+
+	</body>
+</html>

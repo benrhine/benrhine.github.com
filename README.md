@@ -13,6 +13,11 @@ in the new directory and finally `bundle exec jekyll serve`.
 You can now access your brand-new Jekyll site on [http://127.0.0.1:4000/][local].
 Enjoy!
 
+- Run `bundle update`
+- Run `bundle install`
+- Run `bundle exec jekyll serve` to test changes
+- publish to github
+
 If you're completely new to Jekyll, check out it's [documentation][jekyll] first.
 It's not too hard, we promise!
 

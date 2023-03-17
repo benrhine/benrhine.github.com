@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole</title>
+<meta name="description" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/assets/icon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="http://localhost:4000/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://localhost:4000/assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="http://localhost:4000/" class="logo">Ben Rhine</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <li class=""><a href="http://localhost:4000/">Home</a></li>
+  <li class=""><a href="http://localhost:4000/about/">About</a></li>
+  <li class=""><a href="http://localhost:4000/music/">Music</a></li>
+  <li class=""><a href="http://localhost:4000/projects/">Projects</a></li>
+  <li class=""><a href="http://localhost:4000/training/">Training</a></li>
+  <li class=""><a href="http://localhost:4000/consulting/">Consulting</a></li>
+  <li class=" active "><a href="http://localhost:4000/blog/">Blog</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+  <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+</ul>
+
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">19 Dec 2020</span>
+      				<h1>Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole</h1>
+      				<p>MacOs virtual audio driver configuration</p>
+      			</header>
+      			<div class="image main"><img src="/images/blackhole-logo.png" alt=""></div>
+      			<p><h2 id="bedroom-dj-001---how-to-properly-configure-your-macos-audio-for-streaming-with-rekordbox-and-blackhole">Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole</h2>
+
+<p>So you’ve been practicing your dj skills and are ready to try to start streaming you install what you think you need to complete the task and get ready to go live and everything looks good … except all your new online fans are posting they cant hear you :( This is an unfortunate reality for us mac users that will even catch the best of us off guard (ie first time I went live I ended up giving up all the streaming stuff from my machine and propped my phone up to watch me). Fortunately I have learned a good bit since then about how to setup streaming software and in solving audio passthrough issues. So you may now be asking “what do I need to do?” to enter this world of audio streaming bliss. To start we are going to install <a href="https://obsproject.com">OBS</a> which best I can tell is pretty much considered the standard for most streamers followed by <a href="https://github.com/ExistentialAudio/BlackHole">BlackHole</a>.</p>
+
+<p>Being a tech guy I want to make this as fast and as streamlined as possible so we are going to install both of these tools with <a href="https://brew.sh">Brew</a> (I wont be goig over how to install brew in this post but it is quite simple and there are directions on the brew page). So without further addo open up your terminal and execute the following</p>
+
+<p><code class="language-plaintext highlighter-rouge">brew install --cask obs</code>
+and
+<code class="language-plaintext highlighter-rouge">brew install --cask blackhole-16ch</code></p>
+
+<p>Now with both of the above installed we need to configure blackhole as our audio device. If you <code class="language-plaintext highlighter-rouge">CMD-Space</code> to open spotlight and type <code class="language-plaintext highlighter-rouge">Audio MIDI Setup.app</code> and open you should see something like the following.</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/open-midi.png" alt="" style="width:500px;height:600px;" /></span></p>
+
+<p>then</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/default-audio-devices-blackhole.png" alt="" /></span></p>
+
+<p>Next click on the PLUS sign and then choose Create Multi-Output Device, make sure everything looks exactly like the image below. Make sure Master device is your built in audio output and the built in is the top check box, if its not just uncheck and then re-check. What this setting config is allowing for telling your mac to send audio out of the speakers as well as send it to blackhole.</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/blackhole-output-grp.png" alt="" /></span></p>
+
+<p>Similarly for input click on the PLUS sign and then choose Create Aggregate Device and again make sure everything looks exact.</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/blackhole-input-grp.png" alt="" /></span></p>
+
+<p>Once this is done you can click on the labels and rename them to something more appropriate if you like.</p>
+
+<p>Now with blackhole configured it is important to select your new combined audio group as the actual audio output. You can do this by right clicking the audio group and selecting <code class="language-plaintext highlighter-rouge">Use This Device For Sound Output</code></p>
+
+<h5 id="note-by-selecting-this-as-your-primary-audio-output-make-sure-your-volume-level-is-set-first-as-this-will-disable-your-volume-keys---you-will-only-be-able-to-manually-edit-the-volume-level-using-the-software-slider-while-this-group-is-slected-as-active">Note: By selecting this as your primary audio output make sure your volume level is set first as this will disable your volume keys - you will only be able to manually edit the volume level using the software slider while this group is slected as active.</h5>
+
+<p><span class="image center"><img src="http://localhost:4000/images/select-audio-device.png" alt="" /></span></p>
+
+<p>At this point go ahead and open your <code class="language-plaintext highlighter-rouge">Rekordbox</code> application. Once Rekordbox is open, open your preferences</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/rb-open-preferences.png" alt="" /></span></p>
+
+<p>Then navigate to <code class="language-plaintext highlighter-rouge">Audio</code>, once on the audio tab in the in the audio grouping leave set to DDJ-xxx but make sure the checkbox <code class="language-plaintext highlighter-rouge">Output audio from the computers built-in speakers...</code> is checked. Then down under <code class="language-plaintext highlighter-rouge">Output channels &gt; Master Output</code> you should be able to select this and see your new combined audio output group you created in the previous step.</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/rb-pref-config.png" alt="" /></span></p>
+
+<h5 id="note-that-rekordbox-is-somewhat-tempermental-about-this-and-you-may-need-to-open-and-close-the-app-a-few-times-before-it-shows-up-or-maybe-i-was-just-struggling-it-did-show-up-wihtout-to-much-issue-but-it-wasnt-on-the-first-time">Note: that Rekordbox is somewhat tempermental about this and you may need to open and close the app a few times before it shows up (or maybe I was just struggling, it did show up wihtout to much issue but it wasnt on the first time).</h5>
+
+<p>At this point you should have your new virtual audio driver (BlackHole) fully configured and Rekordbox should now be setup to send audio to it. Now how do we test this?</p>
+
+<p>Now its time to open <code class="language-plaintext highlighter-rouge">OBS</code>, do the same as above <code class="language-plaintext highlighter-rouge">CMD-Space</code> and type <code class="language-plaintext highlighter-rouge">OBS</code> and enter. Obs should pop open on your screen. Next select the <code class="language-plaintext highlighter-rouge">Scene</code> then click the plus (+) in the <code class="language-plaintext highlighter-rouge">Sources</code> box. Select <code class="language-plaintext highlighter-rouge">Audio Output Capture</code> as in the screenshot below.</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/obs-new-audio-capture.png" alt="" /></span></p>
+
+<p>Give it a name</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/obs-create-new-audio-capture.png" alt="" /></span></p>
+
+<p>In the box that opens then select blackhole 16ch</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/obs-select-blackhole.png" alt="" /></span></p>
+
+<p>Once added you should see a new volume item added to osb as below</p>
+
+<p><span class="image center"><img src="http://localhost:4000/images/obs-vol.png" alt="" /></span></p>
+
+<p>To ensure everything is working play some music from Rekordbox and you should see the volume monitor moving around in OSB.</p>
+
+<p>Thats it, you should be good to stream audio directly from your soundcard now, thanks for taking the time to stop by and check out my post.</p>
+
+<p>This post was inspired by the source posts below and are combined here for clarity</p>
+
+<p><a href="https://wearecrossfader.co.uk/blog/stream-from-rekordbox-with-no-soundcard/">Source 1</a>
+<a href="https://wikis.utexas.edu/display/comm/How+to+set+up+BlackHole+Audio+on+a+Mac">Source 2</a></p>
+
+</p>
+      		</section>
+
+          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '/blog/mac-blackhole-rekordbox/';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '/blog/mac-blackhole-rekordbox/'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://default.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div><!-- /.comments-wrapper -->
+
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li><a href="http://localhost:4000/blog/" class="button">My Blog</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <footer id="footer">
+  <section>
+    <form method="POST" action="https://api.slapform.com/rhine.ben@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+      <input type="hidden" name="slap_redirect" value="http://localhost:4000/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Denver, CO</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="tel:614-545-8725">614-545-8725</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:rhine.ben@gmail.com">rhine.ben@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; HTML5 UP</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
+<script src="http://localhost:4000/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/assets/js/util.js"></script>
+<script src="http://localhost:4000/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FSDNJ7DYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FSDNJ7DYC');
+</script>
+
+	</body>
+</html>

@@ -2,9 +2,72 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>http://localhost:4000/blog/semantic-versioning-with-build-number/</loc>
+      
+        <lastmod>2022-04-09T00:00:00-06:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/better-future-1/</loc>
+      
+        <lastmod>2022-04-09T00:00:00-06:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/automated-cue-points/</loc>
+      
+        <lastmod>2022-03-29T00:00:00-06:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/shadow-tech/</loc>
+      
+        <lastmod>2020-12-19T00:00:00-07:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/mac-blackhole-rekordbox/</loc>
+      
+        <lastmod>2020-12-19T00:00:00-07:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/howto-autostart-encrypted-unraid-array/</loc>
+      
+        <lastmod>2020-12-12T00:00:00-07:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/howto-install-unraid/</loc>
+      
+        <lastmod>2020-11-12T00:00:00-07:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/blog/initial-post/</loc>
       
-        <lastmod>2020-05-19T00:00:00-04:00</lastmod>
+        <lastmod>2020-05-19T00:00:00-06:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
@@ -13,7 +76,7 @@
   
     <url>
       <loc>http://localhost:4000/about/</loc>
-       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
+       <lastmod>2023-03-17T00:00:00-06:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -23,7 +86,7 @@
   
     <url>
       <loc>http://localhost:4000/blog/</loc>
-       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
+       <lastmod>2023-03-17T00:00:00-06:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -32,8 +95,18 @@
      </url>
   
     <url>
+      <loc>http://localhost:4000/consulting/</loc>
+       <lastmod>2020-05-20T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
       <loc>http://localhost:4000/elements/</loc>
-       <lastmod>2017-11-02T00:00:00-04:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-06:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -43,7 +116,7 @@
   
     <url>
       <loc>http://localhost:4000/</loc>
-       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
+       <lastmod>2020-05-19T00:00:00-06:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -62,7 +135,27 @@
      </url>
   
     <url>
+      <loc>http://localhost:4000/music/</loc>
+       <lastmod>2020-05-20T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
       <loc>http://localhost:4000/assets/css/noscript.css</loc>
+       <lastmod>2020-05-20T00:20:35+00:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/projects/</loc>
        <lastmod>2020-05-20T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -93,9 +186,9 @@
   
     <url>
       <loc>http://localhost:4000/training/</loc>
-       <lastmod>2020-05-19T00:00:00-04:00</lastmod>
+       <lastmod>2023-03-17T00:00:00-06:00</lastmod>
       
-       <changefreq>weekly</changefreq>
+       <changefreq>monthly</changefreq>
       
        <priority>0.7</priority>
       
@@ -118,6 +211,16 @@
        <changefreq>weekly</changefreq>
       
        <priority>0.5</priority>
+      
+     </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/page2/</loc>
+       <lastmod>2020-05-19T00:00:00-06:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
       
      </url>
   

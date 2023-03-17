@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Gradle Plugin 001 - Semantic versioning with build number</title>
+<meta name="description" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/assets/icon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="http://localhost:4000/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://localhost:4000/assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="http://localhost:4000/" class="logo">Ben Rhine</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <li class=""><a href="http://localhost:4000/">Home</a></li>
+  <li class=""><a href="http://localhost:4000/about/">About</a></li>
+  <li class=""><a href="http://localhost:4000/music/">Music</a></li>
+  <li class=""><a href="http://localhost:4000/projects/">Projects</a></li>
+  <li class=""><a href="http://localhost:4000/training/">Training</a></li>
+  <li class=""><a href="http://localhost:4000/consulting/">Consulting</a></li>
+  <li class=" active "><a href="http://localhost:4000/blog/">Blog</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+  <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+</ul>
+
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">09 Apr 2022</span>
+      				<h1>Gradle Plugin 001 - Semantic versioning with build number</h1>
+      				<p>Semantic versioning with build number</p>
+      			</header>
+      			<div class="image main"><img src="/images/gradle.jpg" alt=""></div>
+      			<p><h2 id="gradle-plugin-001---semantic-versioning-with-build-number">Gradle Plugin 001 - Semantic versioning with build number</h2>
+
+<p>It’s been a minute since I’ve posted anything, I’m going to try to be a bit better about it moving forward. To start this
+year off I’ve been working on building a deeper understanding of the Gradle build system and one of the ways I’m doing
+that is building my own gradle plugins. After years of simply using the system and writing super complex build files I’ve
+decided to try to distill that knowledge into some reusable plugins that I can share with the community. My very first
+attempt at doing this is my new <code class="language-plaintext highlighter-rouge">semantic-versioning-with-build-number</code> plugin.</p>
+
+<p>You may ask “Why build another semantic versioning plugin”? Well, because I tried a number of the ones available and
+none of them worked how I wanted them to work, or they might have, but even testing several recent ones I had trouble
+getting them to work correctly due to missing documentation.</p>
+
+<p><strong>Note: Currently, the plugin is still waiting for approval at <code class="language-plaintext highlighter-rouge">plugins.gradle.org</code> so as of the writing of this post
+if you want to try it out you will need to pull it down from <a href="https://github.com/benrhine/semantic-versioning-with-build-number">GitHub</a>
+and build it yourself. I expect it will be available from the official repository in the next several days. This post
+is intended to be part of the documentation, so it was written alongside the plugin. I will update this post once it is
+officially available.</strong></p>
+
+<h3 id="how-did-i-want-it-to-work">How did I want it to work?</h3>
+<p>So how did I want it to work? I wanted the plugin to fully take over setting the <code class="language-plaintext highlighter-rouge">version</code> variable within any gradle project.
+I didn’t want version to be declared anywhere else in the build unless it was being referenced. I also wanted the ability
+to be able to programmatically operate on the build number using CI scripts. Lastly, and maybe more importantly I wanted
+the ability to include a build number in my versioning and that was not a feature I was able to find in any of the other
+plugins I surveyed.</p>
+
+<h3 id="overview">Overview</h3>
+<p>I am not going to go into full documentation on how it works or how to use it in this post. For those details please go
+read the rigorous documentation I have put together <a href="https://github.com/benrhine/semantic-versioning-with-build-number/blob/main/README.md">here</a>.
+If you want to include the build number it is assumed you are using a remote CI service of some sort (GitHub Actions, BitBucket, ect …).
+In order for this to work you must configure the <code class="language-plaintext highlighter-rouge">remoteBuild</code> property discussed below under <a href="#configuration">Configuration</a> as well
+as supply your CI services pre-defined ENV VAR name in <code class="language-plaintext highlighter-rouge">ciBuildNumberEnvVarName</code>. This suggests the GitHub Actions or the
+BitBucket var names by default. If you know of others from other services please reach out to me and I will be happy
+to update the plugin and add them.</p>
+
+<h4 id="how-to-include-in-your-project">How to include in YOUR project.</h4>
+<p>If you are using modern gradle …</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plugins</span> <span class="o">{</span>
+    <span class="n">id</span> <span class="s1">'com.benrhine.semantic-versioning-with-build-number'</span> <span class="n">version</span> <span class="s1">'0.0.1'</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>If you are using older gradle or attempting to build the plugin from source …</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">buildscript</span> <span class="o">{</span>
+    <span class="n">repositories</span> <span class="o">{</span>
+        <span class="n">mavenLocal</span><span class="o">()</span>
+        <span class="n">mavenCentral</span><span class="o">()</span>
+    <span class="o">}</span>
+    <span class="n">dependencies</span> <span class="o">{</span>
+        <span class="n">classpath</span> <span class="s1">'com.benrhine:semantic-versioning-with-build-number:0.0.1'</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="n">plugins</span> <span class="o">{</span>
+  
+<span class="o">}</span>
+
+<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">'com.benrhine.semantic-versioning-with-build-number'</span>
+</code></pre></div></div>
+<p>Once the plugin is applied you <strong>MUST</strong> add the following to your <code class="language-plaintext highlighter-rouge">gradle.properties</code> file, otherwise you will get errors.</p>
+<div class="language-properties highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">major</span><span class="p">=</span><span class="s">0</span>
+<span class="py">minor</span><span class="p">=</span><span class="s">0</span>
+<span class="py">patch</span><span class="p">=</span><span class="s">1</span>
+<span class="py">buildNumber</span><span class="p">=</span><span class="s">0</span>
+<span class="py">artifact-type</span><span class="p">=</span><span class="s">LOCAL</span>
+<span class="py">remote-build</span><span class="p">=</span><span class="s">false</span>
+<span class="py">include-release-tag</span><span class="p">=</span><span class="s">false</span>
+</code></pre></div></div>
+
+<h3 id="configuration">Configuration</h3>
+<p>I wanted this plugin to be super easy to use since I had issues with some of the others I tried, so with that in mind
+no configuration is necessary by default. If you applied the plugin as stated above it is now managing your version number.
+Now, if the default isn’t good enough for your purposes (and it probably isn’t) then a number of configuration options 
+are available to you.</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">versionConfig</span> <span class="o">{</span>
+    <span class="n">remoteBuild</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="n">ciBuildNumberEnvVarName</span> <span class="o">=</span> <span class="s2">"BUILD_RUN_NUMBER"</span> <span class="c1">//BITBUCKET_BUILD_NUMBER</span>
+    <span class="n">artifactType</span> <span class="o">=</span> <span class="s2">"SNAPSHOT"</span>
+    <span class="n">includeReleaseTag</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="n">includeBuildNumber</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="n">customVersionPropertiesPath</span> <span class="o">=</span> <span class="s2">"$projectDir/src/main/resources/version.properties"</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>For a full run down on the above options and how they work see the documentation <a href="https://github.com/benrhine/semantic-versioning-with-build-number#configuration">here</a>.</p>
+
+<h3 id="available-tasks">Available Tasks</h3>
+<p>So what <a href="https://github.com/benrhine/semantic-versioning-with-build-number#available-tasks">tasks</a> are available out of the box?</p>
+<h4 id="print-the-current-version">Print the current version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew printVersion
+</code></pre></div></div>
+
+<h4 id="increment-the-patch-portion-of-the-version">Increment the patch portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew incrementPatchVersion
+</code></pre></div></div>
+
+<h4 id="increment-the-minor-portion-of-the-version">Increment the minor portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew incrementMinorVersion
+</code></pre></div></div>
+
+<h4 id="increment-the-major-portion-of-the-version">Increment the major portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew incrementMajorVersion
+</code></pre></div></div>
+
+<h4 id="decrement-the-patch-portion-of-the-version">Decrement the patch portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew decrementPatchVersion
+</code></pre></div></div>
+
+<h4 id="decrement-the-minor-portion-of-the-version">Decrement the minor portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew decrementMinorVersion
+</code></pre></div></div>
+
+<h4 id="decrement-the-major-portion-of-the-version">Decrement the major portion of the version</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew decrementMajorVersion
+</code></pre></div></div>
+
+<h4 id="project-references">Project References</h4>
+<ul>
+  <li><a href="https://github.com/benrhine/semantic-versioning-with-build-number">GitHub Repo</a></li>
+  <li><a href="https://github.com/benrhine/semantic-versioning-with-build-number/blob/main/README.md">Detailed Documentation</a></li>
+</ul>
+</p>
+      		</section>
+
+          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '/blog/semantic-versioning-with-build-number/';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '/blog/semantic-versioning-with-build-number/'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://default.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div><!-- /.comments-wrapper -->
+
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li><a href="http://localhost:4000/blog/" class="button">My Blog</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <footer id="footer">
+  <section>
+    <form method="POST" action="https://api.slapform.com/rhine.ben@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+      <input type="hidden" name="slap_redirect" value="http://localhost:4000/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Denver, CO</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="tel:614-545-8725">614-545-8725</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:rhine.ben@gmail.com">rhine.ben@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; HTML5 UP</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
+<script src="http://localhost:4000/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/assets/js/util.js"></script>
+<script src="http://localhost:4000/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FSDNJ7DYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FSDNJ7DYC');
+</script>
+
+	</body>
+</html>

@@ -1,3 +1,581 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T21:17:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ben Rhine</title><subtitle>Ben is a seasoned polyglot developer and development team lead with more than a decade of experience under his belt. He has worked across the board from small startups to multiple Fortune 100 companies. He specializes in Java and Groovy on Grails development with excelent Javascript skills across several major frameworks.</subtitle><entry><title type="html">Initial Post - So I dont forget how my new theme works</title><link href="http://localhost:4000/blog/initial-post/" rel="alternate" type="text/html" title="Initial Post - So I dont forget how my new theme works" /><published>2020-05-19T00:00:00-04:00</published><updated>2020-05-19T00:00:00-04:00</updated><id>http://localhost:4000/blog/initial-post</id><content type="html" xml:base="http://localhost:4000/blog/initial-post/">&lt;h2 id=&quot;remembering-how-to-create-new-posts&quot;&gt;Remembering how to create new posts&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-17T14:12:32-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ben Rhine</title><subtitle>Ben is a seasoned polyglot developer and development team lead with more than a decade of experience under his belt. He has worked across the board from small startups to multiple Fortune 100 companies. He specializes in Java and Groovy on Grails development with excelent Javascript skills across several major frameworks.</subtitle><entry><title type="html">Better Future 001 - Innovative Infrastructure: Sewer systems and the future</title><link href="http://localhost:4000/blog/better-future-1/" rel="alternate" type="text/html" title="Better Future 001 - Innovative Infrastructure: Sewer systems and the future" /><published>2022-04-09T00:00:00-06:00</published><updated>2022-04-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/better-future-1</id><content type="html" xml:base="http://localhost:4000/blog/better-future-1/">&lt;h2 id=&quot;better-future-001---innovative-infrastructure-sewer-systems-and-the-future&quot;&gt;Better Future 001 - Innovative Infrastructure: Sewer systems and the future&lt;/h2&gt;
+
+&lt;p&gt;An interesting fact about myself is I have a passion for architecture and futurism. One of my greatest frustrations in life is that just in my lifetime we have made some pretty great strides in technology and design but the powers that be are mostly unwilling or too cheap to improve societies life by implementing them (even if doing so might save quite a bit of money in the long run). This isn’t intended to get political or rant about what is or isn’t, but to imagine the future we want and to raise awareness about what is possible. With that in mind I want to talk about the sexist infrastructure system we have, the sewer system!!! Also as a by-product of this discussion we will also likely discuss the water system as well.&lt;/p&gt;
+
+&lt;p&gt;So let’s start this discussion with all the things that are possible to do with a sewer system. Of course let’s start with the obvious …&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clears bio waste products from homes, businesses, and schools&lt;/li&gt;
+  &lt;li&gt;Manages waste water from rain and snow&lt;/li&gt;
+  &lt;li&gt;Power generation&lt;/li&gt;
+  &lt;li&gt;Heat generation&lt;/li&gt;
+  &lt;li&gt;Disease detection and prevention&lt;/li&gt;
+  &lt;li&gt;Chemical detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-obvious&quot;&gt;The Obvious&lt;/h4&gt;
+
+&lt;p&gt;So let’s start here with basically what everyone already knows. The sewer system was created to help keep us healthy by transporting away our bio waste. Basic sewer systems have existed since at least Babylonian times but most times it has been nothing more than a pit in which to keep the sewage isolated from other areas of society. &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Snow&quot;&gt;John Snow - (not of relation to the mother of dragons)&lt;/a&gt;, while not necessarily directly responsible for the creation of sewer systems in the mid 19th century came to the realization that contaminated water sources were directly responsible for the outbreaks of disease. Once that realization had been made we start seeing the construction of modern-ish sewer systems starting in the &lt;a href=&quot;https://en.wikipedia.org/wiki/History_of_water_supply_and_sanitation&quot;&gt;1850’s.&lt;/a&gt; This development has obviously greatly improved society at all levels from keeping even the poorest and most destitute of us healthier to ensuring we don’t have the great displeasure of a nasty strong odor everywhere we go. Best of all this system works in a manner that is most beneficial to society in that 9 times out of 10 it just works and it’s an afterthought. Whether you are hooked up to a city system or a septic the system is relatively standard about taking the waste products away from where people are and storing or disposing them in a safe manner.&lt;/p&gt;
+
+&lt;p&gt;Note: I am aware that early sewer systems were not safe or super hygienic but that’s a different discussion altogether.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-not-so-obvious&quot;&gt;The Not so Obvious&lt;/h4&gt;
+
+&lt;p&gt;In addition to the facts above, sewer systems were expanded to not just deal with bio waste but to help deal with run off from weather. As early sewer systems were built out, access to them was created at a street level to help with drainage in towns and cities and to prevent flooding and they still do that today. Take a moment to step back and think about how most of the time even during a torrential downpour most streets don’t get flooded and quickly drain. That’s thanks to having larger municipal sewers available to take care of the excess water. In addition to helping keep the streets of your neighborhood from being flooded, having such a system where you live also more than likely contributes to helping ensure your basement (if you have one) doesn’t flood either as it quickly takes away the excess and doesnt give it time to go places it shouldn’t.&lt;/p&gt;
+
+&lt;p&gt;Now that we have refreshed you on information you probably already know even if you don’t commonly think about it. Lets ask ourselves could this out of sight out of mind system that in the developed world we take for granted do more? The answer to that is an unequivocal yes.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-unexpected&quot;&gt;The Unexpected&lt;/h4&gt;
+
+&lt;p&gt;At its base level a sewer system is a man made river complex for waste products. While this is greatly over simplified it is an easy idea to understand. What else do we use river systems for? Generating hydro power. Surprisingly enough it is in fact possible to generate electricity from our waste running through the sewer system. See&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S2095809917300875&quot;&gt;here, &lt;/a&gt;
+&lt;a href=&quot;https://www.waterworld.com/water-utility-management/energy-management/article/16200652/hydro-technology-extracts-energy-from-sewage-water&quot;&gt;here, &lt;/a&gt;
+&lt;a href=&quot;https://www.gov1.com/energy/articles/creating-electricity-from-water-sewer-pipes-DLOaYQhcXnQi88r1/&quot;&gt;and here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;While such a system will not out produce something like the hoover dam it certainly is no slouch in its generation capabilities. A hydro electric sewage system also has other benefits over a standard river dam system such as the following.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Can be installed anywhere there is a municipal level sewer system&lt;/li&gt;
+  &lt;li&gt;Infrastructure is already partially in place&lt;/li&gt;
+  &lt;li&gt;Out of sight from the public. Ie. does not require additional square footage for deployment such as the like of wind turbines or solar panels.&lt;/li&gt;
+  &lt;li&gt;Does Not require altering nature or the environment&lt;/li&gt;
+  &lt;li&gt;Depending on the level of energy produced from the system may actually cause the system to become self-sustaining in the sense that it could generate all or more than the power needed of the sewer system and any additional profits could go toward the long term maintenance and enhancement of the system.&lt;/li&gt;
+  &lt;li&gt;Is truly renewable as people will always continue to create bio waste.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the best things about implementing such a system is that all of this technology exists today. It not only exists, it has already been deployed in multiple environments and has been shown to be effective. In addition if we consider making such an upgrade to our sewer system it also gives an opportunity to install &lt;a href=&quot;&quot;&gt;anti fatberg&lt;/a&gt; technology to help keep our sewers working in top shape and reduce the man hours necessary to maintain them.
+One of the best things about implementing such a system is all of this technology exists today. It not only exists, it has already been deployed in multiple environments and has been shown to be effective. In addition if we consider making such an upgrade to our sewer system it also gives an an opportunity to install &lt;a href=&quot;https://www.engadget.com/cities-and-utilities-turn-to-tech-in-fight-against-fatbergs-160044311.html?guccounter=1&amp;amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;amp;guce_referrer_sig=AQAAAH5PW5plLa6UOR7g5xYFRbkjhmaKk5g_HMDyFwoYlCx312EsqjkUpGFZcidN9FbzfvnRZ6pbWWtMNgVTsasm08fbKKFe0KlEEVcpYdzmOiQ7IXB8G0lEJ8MAJCcOQQwXpNEpkbhryMOAFPoJkhd-zAWpZinRLWhFsa3qm6qKFMPe&quot;&gt;anti fatberg&lt;/a&gt; technology to help keep our sewers working in top shape and reduce the man hours necessary to maintain them.&lt;/p&gt;
+
+&lt;p&gt;Lastly, not only hydro generation is possible but while smaller, thermal capture is also possible. While thermally it’s not a huge amount of energy such warmths could be captured and used for basic things such as keeping sidewalks or roads free of snow and ice in areas in which the sewer pipes are run. Such a system would again (in a limited sense) decrease public costs as at least in a cold weather climate it would help reduce wear and tear on any roads or sidewalks such a system is in place as well as lower the man hour cost as such areas would no longer require as much attention from snow plows or city workers keeping the sidewalks clean. In either a warm or cold weather climate such heat could alternatively be captured and converted to the minimal power necessary to power LED street lights or other minimal communication equipment that populates our sidewalks.&lt;/p&gt;
+
+&lt;p&gt;Having such a generation and capture system in place has many benefits. While discussed in some context above lets list out what having this level of system in place could be …&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lowers operational energy costs by producing its own energy&lt;/li&gt;
+  &lt;li&gt;Potentially makes a profit from energy generation which helps cover maintenance and improvement costs of the system&lt;/li&gt;
+  &lt;li&gt;Helps keep people’s utility bills low by being self sustaining or partially self sustaining system&lt;/li&gt;
+  &lt;li&gt;Lowers the demand on the grid&lt;/li&gt;
+  &lt;li&gt;In the event the grid goes down this utility could be run independently without issues&lt;/li&gt;
+  &lt;li&gt;Increases a community’s independence knowing that their bio waste disposal will continue to operate even under adverse circumstances.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-future&quot;&gt;The Future&lt;/h4&gt;
+
+&lt;p&gt;At this point it should be obvious but there is much more that a sewer system can do for society and the public rather than just be a sewer system but how do we take it even further? Not only does it help keep us healthy and dispose of our bio waste; not only can it produce energy, but it can also help watch for and track the spread of diseases. While this is certainly not the first usage of such technology it became increasingly obvious during covid that we need to do a better job not just tracking developing diseases but disease in general. For specific details on covid monitoring through sewage see 
+&lt;a href=&quot;https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html&quot;&gt;here, &lt;/a&gt;
+&lt;a href=&quot;https://www.scientificamerican.com/article/wastewater-monitoring-offers-powerful-tool-for-tracking-covid-and-other-diseases/&quot;&gt;and here.&lt;/a&gt; In this particular case this sort of monitoring is a lagging indicator of what is occurring but it is an extremely powerful tool. Why would such a system be considered so powerful? The number one reason in my opinion such a system is so powerful is this sort of monitoring requires nothing from the public. Does the data lag? Yes, but it doesnt require the public to change their behavior at all and its fully anonymous so there is no danger of the system being used in a discriminatory manor as once the waste is in the system it is all mingled together and is not independently identifiable. Such a system as a general public health system diagnostic tool is in desperate need. No matter how you felt during the pandemic and if you believed or not, I would hope that it can be agreed it has been hard to discern what is and is not credible data. Data gathered in this manner could provide much more detail on when high levels of a disease are present in an area. An example of this related to covid would be that if you have covid but don’t feel sick or you only had a mild sniffle, you’re probably not going to go get tested and just chalk it up to a down day. Cases like this greatly skew the data points that are presented as many more people could have something and be infected meaning that the infection rate is quite high but the reported data would only show low to medium based off the number of people seeking active treatment. A monitoring system of this nature would be able to better track general transmission and infection rates and make more accurate statements about how prevalent something is in a given area as it takes into account everyone’s waste.&lt;/p&gt;
+
+&lt;p&gt;This sort of analysis could be used in helping track flu outbreaks, unusual disease outbreaks, to possibly even determining if higher than usual instances of cancer occur in a given area.&lt;/p&gt;
+
+&lt;p&gt;Having such detailed yet general data could also impact how local municipalities deal with public health. An example being that if they could see the spread of the flu was exceptionally high they might offer free flu shots that season. Or if you were able to determine that an unusually high amount of people seemed to have a specific cancer or some other environmentally caused disease it could spur the public to look into why and possibly environmental cleanup actions to reduce the disease in question.&lt;/p&gt;
+
+&lt;p&gt;In addition to disease monitoring such a system could also be used to watch for high levels of toxic and or disease causing chemicals entering the system. Such monitoring could be used to help keep and build a cleaner environment for society.&lt;/p&gt;
+
+&lt;p&gt;And again all of the necessary technology to do this exists today, nothing needs to be invented to implement any of these systems&lt;/p&gt;
+
+&lt;p&gt;talk about cost and even if expensive why&lt;/p&gt;
+
+&lt;h4 id=&quot;what-else&quot;&gt;What else?&lt;/h4&gt;
+
+&lt;p&gt;What are some other possibilities that could be cooked up? In addition to power generation in the sewer system some aspects could also be carried over into our fresh water system where it could also be used to generate hydro energy. It could also be possible to capture the methane gas released from the bio waste and use it for fuel in another system. Additionally we could consider adding municipal greywater systems and with only partial treatment to remove harmful toxins. In particular thinking of street runoff and overflow from weather events and using this gray water specifically for irrigation, yard sprinkler systems, street cleaning, ect in an effort to more responsibly use our water resources.&lt;/p&gt;
+
+&lt;h4 id=&quot;cost&quot;&gt;Cost&lt;/h4&gt;
+
+&lt;p&gt;As with most of these ideas, cost is more than likely the primary reason that they don’t get implemented. Even with these systems being costly I would ask you the reader can we afford not to? While I will be honest and say I was not able to find the cost breakdown of implementation for any of the above, I will ask again can we afford not to? It seems that there is some new problem every day that comes up in society and many of the utopian ideas that have been had throughout time seem ever further away. Why don’t we pick problem scopes that we know we can solve and actually solve them? Stop choosing the cheapest lowest bar solution everytime and try to actually make the world a better place for everyone, even one small step at a time. Everything discussed above is possible to do today, no new technology, no imaginative thinking about how it can be done, all these things exist and are not in wide usage. None of them require the public to change how they behave; There is an offset to the cost of implementation by the system being power independent as well as some level of local power generation. There could be discounts on water rates given for hooking up to the gray water system for irrigation usages and the whole locality would benefit from better disease and toxin monitoring. What is the downside to setting up this system other than initial cost? So, again I ask can we afford to continue to not take the necessary steps to build a better system for society? Just because a horse and buggy can get you from point A to point B does not mean that is how it should be done. We know that things could be better now and have consistently chosen to keep the status quo or worse yet allow things to reach an ever greater state of disrepair. Now is the time to act to improve our systems, to improve society, to improve our lives.&lt;/p&gt;</content><author><name></name></author><summary type="html">Improving our sewer systems and our lives</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/sewer-1.jpeg" /><media:content medium="image" url="http://localhost:4000/images/sewer-1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gradle Plugin 001 - Semantic versioning with build number</title><link href="http://localhost:4000/blog/semantic-versioning-with-build-number/" rel="alternate" type="text/html" title="Gradle Plugin 001 - Semantic versioning with build number" /><published>2022-04-09T00:00:00-06:00</published><updated>2022-04-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/semantic-versioning-with-build-number</id><content type="html" xml:base="http://localhost:4000/blog/semantic-versioning-with-build-number/">&lt;h2 id=&quot;gradle-plugin-001---semantic-versioning-with-build-number&quot;&gt;Gradle Plugin 001 - Semantic versioning with build number&lt;/h2&gt;
+
+&lt;p&gt;It’s been a minute since I’ve posted anything, I’m going to try to be a bit better about it moving forward. To start this
+year off I’ve been working on building a deeper understanding of the Gradle build system and one of the ways I’m doing
+that is building my own gradle plugins. After years of simply using the system and writing super complex build files I’ve
+decided to try to distill that knowledge into some reusable plugins that I can share with the community. My very first
+attempt at doing this is my new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;semantic-versioning-with-build-number&lt;/code&gt; plugin.&lt;/p&gt;
+
+&lt;p&gt;You may ask “Why build another semantic versioning plugin”? Well, because I tried a number of the ones available and
+none of them worked how I wanted them to work, or they might have, but even testing several recent ones I had trouble
+getting them to work correctly due to missing documentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: Currently, the plugin is still waiting for approval at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plugins.gradle.org&lt;/code&gt; so as of the writing of this post
+if you want to try it out you will need to pull it down from &lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number&quot;&gt;GitHub&lt;/a&gt;
+and build it yourself. I expect it will be available from the official repository in the next several days. This post
+is intended to be part of the documentation, so it was written alongside the plugin. I will update this post once it is
+officially available.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-i-want-it-to-work&quot;&gt;How did I want it to work?&lt;/h3&gt;
+&lt;p&gt;So how did I want it to work? I wanted the plugin to fully take over setting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;version&lt;/code&gt; variable within any gradle project.
+I didn’t want version to be declared anywhere else in the build unless it was being referenced. I also wanted the ability
+to be able to programmatically operate on the build number using CI scripts. Lastly, and maybe more importantly I wanted
+the ability to include a build number in my versioning and that was not a feature I was able to find in any of the other
+plugins I surveyed.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I am not going to go into full documentation on how it works or how to use it in this post. For those details please go
+read the rigorous documentation I have put together &lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number/blob/main/README.md&quot;&gt;here&lt;/a&gt;.
+If you want to include the build number it is assumed you are using a remote CI service of some sort (GitHub Actions, BitBucket, ect …).
+In order for this to work you must configure the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remoteBuild&lt;/code&gt; property discussed below under &lt;a href=&quot;#configuration&quot;&gt;Configuration&lt;/a&gt; as well
+as supply your CI services pre-defined ENV VAR name in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ciBuildNumberEnvVarName&lt;/code&gt;. This suggests the GitHub Actions or the
+BitBucket var names by default. If you know of others from other services please reach out to me and I will be happy
+to update the plugin and add them.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-include-in-your-project&quot;&gt;How to include in YOUR project.&lt;/h4&gt;
+&lt;p&gt;If you are using modern gradle …&lt;/p&gt;
+&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plugins&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;com.benrhine.semantic-versioning-with-build-number&apos;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;0.0.1&apos;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If you are using older gradle or attempting to build the plugin from source …&lt;/p&gt;
+&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;buildscript&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;repositories&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;mavenLocal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;mavenCentral&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dependencies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;classpath&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;com.benrhine:semantic-versioning-with-build-number:0.0.1&apos;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plugins&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;apply&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;plugin:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;com.benrhine.semantic-versioning-with-build-number&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Once the plugin is applied you &lt;strong&gt;MUST&lt;/strong&gt; add the following to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gradle.properties&lt;/code&gt; file, otherwise you will get errors.&lt;/p&gt;
+&lt;div class=&quot;language-properties highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;py&quot;&gt;major&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;minor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;patch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;buildNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;artifact-type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;LOCAL&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;remote-build&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;include-release-tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;I wanted this plugin to be super easy to use since I had issues with some of the others I tried, so with that in mind
+no configuration is necessary by default. If you applied the plugin as stated above it is now managing your version number.
+Now, if the default isn’t good enough for your purposes (and it probably isn’t) then a number of configuration options 
+are available to you.&lt;/p&gt;
+&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;versionConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;remoteBuild&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ciBuildNumberEnvVarName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;BUILD_RUN_NUMBER&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//BITBUCKET_BUILD_NUMBER&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;artifactType&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SNAPSHOT&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;includeReleaseTag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;includeBuildNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;customVersionPropertiesPath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$projectDir/src/main/resources/version.properties&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;For a full run down on the above options and how they work see the documentation &lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number#configuration&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;available-tasks&quot;&gt;Available Tasks&lt;/h3&gt;
+&lt;p&gt;So what &lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number#available-tasks&quot;&gt;tasks&lt;/a&gt; are available out of the box?&lt;/p&gt;
+&lt;h4 id=&quot;print-the-current-version&quot;&gt;Print the current version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew printVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;increment-the-patch-portion-of-the-version&quot;&gt;Increment the patch portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew incrementPatchVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;increment-the-minor-portion-of-the-version&quot;&gt;Increment the minor portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew incrementMinorVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;increment-the-major-portion-of-the-version&quot;&gt;Increment the major portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew incrementMajorVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;decrement-the-patch-portion-of-the-version&quot;&gt;Decrement the patch portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew decrementPatchVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;decrement-the-minor-portion-of-the-version&quot;&gt;Decrement the minor portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew decrementMinorVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;decrement-the-major-portion-of-the-version&quot;&gt;Decrement the major portion of the version&lt;/h4&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./gradlew decrementMajorVersion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;project-references&quot;&gt;Project References&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number&quot;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/benrhine/semantic-versioning-with-build-number/blob/main/README.md&quot;&gt;Detailed Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Semantic versioning with build number</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/gradle.jpg" /><media:content medium="image" url="http://localhost:4000/images/gradle.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bedroom Dj 002 - How to programmatically add cue points to your music collection</title><link href="http://localhost:4000/blog/automated-cue-points/" rel="alternate" type="text/html" title="Bedroom Dj 002 - How to programmatically add cue points to your music collection" /><published>2022-03-29T00:00:00-06:00</published><updated>2022-03-29T00:00:00-06:00</updated><id>http://localhost:4000/blog/automated-cue-points</id><content type="html" xml:base="http://localhost:4000/blog/automated-cue-points/">&lt;h2 id=&quot;bedroom-dj-002---how-to-programmatically-add-cue-points-to-your-music-collection&quot;&gt;Bedroom Dj 002 - How to programmatically add cue points to your music collection&lt;/h2&gt;
+
+&lt;p&gt;Originally I had intended to write this post quite some time ago and in the time since things have changed somewhat considerably, so I’m going to try to whip this one out. So what am I actually talking about?&lt;/p&gt;
+
+&lt;p&gt;For those of us who dj most of us should know what cue points are but lets start with a quick primer for anyone who may not know. A cue point is essentially a marker at a particular time stamp in the song where you may want to do something. It could be bringing in the next track, applying an effect or marking the rise or fall in a track. There are lots of different ways you can or could use them. By default Rekordbox will try to give you a freebie and add the first cue point to the begining of the track for you. Some of the times it gets it dead on other times not so much. So what does a default track look like with the Rekordbox inserted cue look like vs one with multiple cue points&lt;/p&gt;
+
+&lt;h4 id=&quot;default-rekordbox-cue-point&quot;&gt;Default Rekordbox Cue Point&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/track-with-default-rb-cue-point.png&quot; alt=&quot;&quot; style=&quot;width:500px;height:600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;mixed-in-key-cue-points&quot;&gt;Mixed in Key Cue Points&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&quot;image right&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/track-with-cue-points.png&quot; alt=&quot;&quot; style=&quot;width:500px;height:600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;At a quick glance after having seen the above you may be starting to realize that adding cue points to all of your dj collection might be quite the pain. Now there is certainly something to be said for taking the time and hand setting every cue point to just the way you want to use them and if your getting ready for a live gig that is certainly not a bad consideration. With that being said though, most of us just want to play the music so how do we improve our collection with accurate and usable cue points 95% of the time without spending a lifetime to manually set them all? Thats right we are going to programmatically set them using audio fingprinting to the most common places someone might want them.&lt;/p&gt;
+
+&lt;p&gt;A few notes at this time. While it would be really nice if Rekordbox supported multiple cue point sets per track but at this time they do not. So assume we run the programmatic cue process but then want to change all the cue points for a particular set. In order to do this you can a) delete all the existing cue points on a given track and manually reset them but they are that way untill you manually do it again or b) add a copy of the track in question to your library and manually set the cue points different on the second track. I know this causes collection bloat but at this time its what is supported. Next to my statement at the top about how things have changed since I considered writing this post. When I first thought about writing this I was on Rekordbox v5 and using an additional tool called Mixed in Key v9 (MiK). Neither one of these supported programmatic cue setting so I discovered a very useful tool called &lt;a href=&quot;https://atgr-production-team.sellfy.store/p/ma5h/&quot;&gt;Reck&lt;/a&gt;. But now I have since upgraded to Rekordbox v6 and &lt;a href=&quot;https://mixedinkey.com&quot;&gt;Mixed in Key v10 (MiK)&lt;/a&gt; and Mixed in Key v10 (MiK) fully supports exporting its fingerprinted cue points to Rekordbox.&lt;/p&gt;
+
+&lt;p&gt;So how does this actually work? A bit of a technical deep dive here is that Rekordbox keeps all of your track info, time stamps, cue points, notes, key, bpm, ect in an xml file. What this translates to is if you open your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rekordbox.xml&lt;/code&gt; (which probably lives in your Documents folder) is that if you can pick out the pattern of how cue points are set on a track in the file you could in theory manually edit this file and add cue points to your tracks that way. I’ve included a track example from the xml below and the element &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;POSITION_MARK&lt;/code&gt; is marking a cue point.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;TRACK TrackID=&quot;248143132&quot; Name=&quot;In Euphoria We Rise (Progressive Mix)&quot;
+           Artist=&quot;Aurosonic &amp;amp;amp; Stine Grove&quot; Composer=&quot;&quot; Album=&quot;&quot; Grouping=&quot;&quot;
+           Genre=&quot;Trance / Progressive&quot; Kind=&quot;AIFF File&quot; Size=&quot;91575354&quot;
+           TotalTime=&quot;518&quot; DiscNumber=&quot;0&quot; TrackNumber=&quot;0&quot; Year=&quot;2020&quot; AverageBpm=&quot;125.00&quot;
+           DateAdded=&quot;2021-09-04&quot; BitRate=&quot;1411&quot; SampleRate=&quot;44100&quot; Comments=&quot;1A - Energy 6&quot;
+           PlayCount=&quot;1&quot; Rating=&quot;0&quot; Location=&quot;file://location/song.aiff&quot;
+           Remixer=&quot;&quot; Tonality=&quot;01A&quot; Label=&quot;Aurosonic Music (RazNitzanMusic)&quot;
+           Mix=&quot;&quot;&amp;gt;
+      &amp;lt;TEMPO Inizio=&quot;0.158&quot; Bpm=&quot;125.00&quot; Metro=&quot;4/4&quot; Battito=&quot;3&quot;/&amp;gt;
+      &amp;lt;TEMPO Inizio=&quot;262.717&quot; Bpm=&quot;125.00&quot; Metro=&quot;4/4&quot; Battito=&quot;2&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 1&quot; Type=&quot;0&quot; Start=&quot;1.118&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 2&quot; Type=&quot;0&quot; Start=&quot;31.838&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 3&quot; Type=&quot;0&quot; Start=&quot;62.558&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 4&quot; Type=&quot;0&quot; Start=&quot;123.998&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 5&quot; Type=&quot;0&quot; Start=&quot;231.518&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 6&quot; Type=&quot;0&quot; Start=&quot;262.238&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 7&quot; Type=&quot;0&quot; Start=&quot;369.757&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 8&quot; Type=&quot;0&quot; Start=&quot;385.117&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 1&quot; Type=&quot;0&quot; Start=&quot;1.118&quot; Num=&quot;0&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 2&quot; Type=&quot;0&quot; Start=&quot;31.838&quot; Num=&quot;1&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 3&quot; Type=&quot;0&quot; Start=&quot;62.558&quot; Num=&quot;2&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 4&quot; Type=&quot;0&quot; Start=&quot;123.998&quot; Num=&quot;3&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 5&quot; Type=&quot;0&quot; Start=&quot;231.518&quot; Num=&quot;4&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 6&quot; Type=&quot;0&quot; Start=&quot;262.238&quot; Num=&quot;5&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 7&quot; Type=&quot;0&quot; Start=&quot;369.757&quot; Num=&quot;6&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 8&quot; Type=&quot;0&quot; Start=&quot;385.117&quot; Num=&quot;7&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+    &amp;lt;/TRACK&amp;gt;
+    &amp;lt;TRACK TrackID=&quot;187071686&quot; Name=&quot;Your Mind (Extended Mix)&quot; Artist=&quot;Cosmic Gate&quot;
+           Composer=&quot;&quot; Album=&quot;&quot; Grouping=&quot;&quot; Genre=&quot;Trance / Progressive&quot;
+           Kind=&quot;AIFF File&quot; Size=&quot;79103950&quot; TotalTime=&quot;448&quot; DiscNumber=&quot;0&quot;
+           TrackNumber=&quot;0&quot; Year=&quot;2020&quot; AverageBpm=&quot;128.00&quot; DateAdded=&quot;2021-09-04&quot;
+           BitRate=&quot;1411&quot; SampleRate=&quot;44100&quot; Comments=&quot;1A - Energy 7&quot;
+           PlayCount=&quot;0&quot; Rating=&quot;0&quot; Location=&quot;file://location/song.aiff&quot;
+           Remixer=&quot;&quot; Tonality=&quot;01A&quot; Label=&quot;Wake Your Mind Records&quot; Mix=&quot;&quot;&amp;gt;
+      &amp;lt;TEMPO Inizio=&quot;0.097&quot; Bpm=&quot;128.00&quot; Metro=&quot;4/4&quot; Battito=&quot;1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 1&quot; Type=&quot;0&quot; Start=&quot;0.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 2&quot; Type=&quot;0&quot; Start=&quot;60.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 3&quot; Type=&quot;0&quot; Start=&quot;105.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 4&quot; Type=&quot;0&quot; Start=&quot;165.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 5&quot; Type=&quot;0&quot; Start=&quot;195.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 6&quot; Type=&quot;0&quot; Start=&quot;240.097&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 7&quot; Type=&quot;0&quot; Start=&quot;292.597&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 8&quot; Type=&quot;0&quot; Start=&quot;367.597&quot; Num=&quot;-1&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 1&quot; Type=&quot;0&quot; Start=&quot;0.097&quot; Num=&quot;0&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 2&quot; Type=&quot;0&quot; Start=&quot;60.097&quot; Num=&quot;1&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 3&quot; Type=&quot;0&quot; Start=&quot;105.097&quot; Num=&quot;2&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 4&quot; Type=&quot;0&quot; Start=&quot;165.097&quot; Num=&quot;3&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 5&quot; Type=&quot;0&quot; Start=&quot;195.097&quot; Num=&quot;4&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 6&quot; Type=&quot;0&quot; Start=&quot;240.097&quot; Num=&quot;5&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 7&quot; Type=&quot;0&quot; Start=&quot;292.597&quot; Num=&quot;6&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+      &amp;lt;POSITION_MARK Name=&quot;Cue 8&quot; Type=&quot;0&quot; Start=&quot;367.597&quot; Num=&quot;7&quot; Red=&quot;40&quot; Green=&quot;226&quot;
+                     Blue=&quot;20&quot;/&amp;gt;
+    &amp;lt;/TRACK&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;DISCLAIMER: I do not recommend trying to manually edit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rekordbox.xml&lt;/code&gt;. If you do attempt to manually edit it please make sure you have a backup. While it is technically possible to do it is very error prone and you dont want to mess up your dj collection.&lt;/p&gt;
+
+&lt;p&gt;One more note before I finish describing the process, once a track is in Rekordbox its name can not be changed or Rekordbox will forget where that track lives. This is super annyoing but it is what it is but its important to note before we start as tracks will be renamed as part of this process. Additionally, wether or not you are using Reck or MiK I am still assuming you have Mik and its associated tool Platinum Notes (Platinum Notes is used to improve the audio quality of your tracks by fixing clipping and incresing or decreasing the voluming in select areas for a pleasurable play back experience.)&lt;/p&gt;
+
+&lt;h3 id=&quot;set-cue-points-with-reck&quot;&gt;Set Cue Points with ReCK&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure your music files are named the base way you want, in my case like follows Artist - Track Name.fileType&lt;/li&gt;
+  &lt;li&gt;Open Platinum Notes
+    &lt;ul&gt;
+      &lt;li&gt;Platinum Notes is configurable where you want the files saved to&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add your tracks to PN and let it do its thing
+    &lt;ul&gt;
+      &lt;li&gt;Note: All tracks will have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_PN&lt;/code&gt; added to the track name - this sadly is not configurable, hence why it is imporant to do this prior to adding your tracks to Rekordbox&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open Mixed in Key
+    &lt;ul&gt;
+      &lt;li&gt;Mixed in Key is configurable&lt;/li&gt;
+      &lt;li&gt;Set that you want tracks prepended with the track key, bpm, and energy level&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once PN has completed is process high light all the tracks and drag them over to Mixed in Key&lt;/li&gt;
+  &lt;li&gt;Once tracks are in mixed in key let it do its thing
+    &lt;ul&gt;
+      &lt;li&gt;At this point MiK will determine the key of the track and will rename the tracks again to how you have MiK configured.&lt;/li&gt;
+      &lt;li&gt;In my case trackKey - bpm - Artist - Track Name_PN.fileType&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;At this point go ahead and import the tracks into recordbox
+    &lt;ul&gt;
+      &lt;li&gt;I recommend importing all the new tracks to a specific playlist so they are easy to find and review&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once tracks are imported allow Rekordbox to attempt to set the initial cue point and analyize the phrase - DO NOT LET REKORDBOX ANALYIZE THE KEY, as it will mess up the work the MiK did&lt;/li&gt;
+  &lt;li&gt;Once the tracks are imported and RB analysis is complete manually review all the imported tracks and check that your beat grids are correct and that the first cue point was set correctly on the first beat of the track.&lt;/li&gt;
+  &lt;li&gt;Now select File &amp;gt; Export Collection in xml &amp;gt; name the file lowercase rekordbox.xml&lt;/li&gt;
+  &lt;li&gt;When asked to overwrite say yes
+    &lt;ul&gt;
+      &lt;li&gt;What you have just completed is making sure that no file renames are necessary and everything in RB is good to go and you have made certain all new tracks have been exported to the xml file meaning we are now ready to programmatically set our cue points&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;TODO&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reopen RB&lt;/li&gt;
+  &lt;li&gt;On the left hand navigation refresh and expand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rekordbox.xml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll down till you see ReCK playlist&lt;/li&gt;
+  &lt;li&gt;Select all the tracks in the playlist and tell them to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Import to collection&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;When it says the tracks are already in the collection and asks if you still want to import them say yes.&lt;/li&gt;
+  &lt;li&gt;Go view your playlist of new tracks and all the tracks should now have cue points&lt;/li&gt;
+  &lt;li&gt;Now go File &amp;gt; Export Collection in xml &amp;gt; name the file lowercase rekordbox.xml one more time to ensure everything is updated and sticks&lt;/li&gt;
+  &lt;li&gt;When asked to overwrite say yes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;set-cue-points-with-mixed-in-key&quot;&gt;Set Cue Points with Mixed in Key&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure your music files are named the base way you want, in my case like follows Artist - Track Name.fileType&lt;/li&gt;
+  &lt;li&gt;Open Platinum Notes
+    &lt;ul&gt;
+      &lt;li&gt;Platinum Notes is configurable where you want the files saved to&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add your tracks to PN and let it do its thing
+    &lt;ul&gt;
+      &lt;li&gt;Note: All tracks will have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_PN&lt;/code&gt; added to the track name - this sadly is not configurable, hence why it is imporant to do this prior to adding your tracks to Rekordbox&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open Mixed in Key
+    &lt;ul&gt;
+      &lt;li&gt;Mixed in Key is configurable&lt;/li&gt;
+      &lt;li&gt;Set that you want tracks prepended with the track key, bpm, and energy level&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once PN has completed is process high light all the tracks and drag them over to Mixed in Key&lt;/li&gt;
+  &lt;li&gt;Once tracks are in mixed in key let it do its thing
+    &lt;ul&gt;
+      &lt;li&gt;At this point MiK will determine the key of the track and will rename the tracks again to how you have MiK configured.&lt;/li&gt;
+      &lt;li&gt;In my case trackKey - bpm - Artist - Track Name_PN.fileType&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;At this point go ahead and import the tracks into recordbox
+    &lt;ul&gt;
+      &lt;li&gt;I recommend importing all the new tracks to a specific playlist so they are easy to find and review&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once tracks are imported allow Rekordbox to attempt to set the initial cue point and analyize the phrase - DO NOT LET REKORDBOX ANALYIZE THE KEY, as it will mess up the work the MiK did&lt;/li&gt;
+  &lt;li&gt;Once the tracks are imported and RB analysis is complete manually review all the imported tracks and check that your beat grids are correct and that the first cue point was set correctly on the first beat of the track.&lt;/li&gt;
+  &lt;li&gt;Now select File &amp;gt; Export Collection in xml &amp;gt; name the file lowercase rekordbox.xml&lt;/li&gt;
+  &lt;li&gt;When asked to overwrite say yes
+    &lt;ul&gt;
+      &lt;li&gt;What you have just completed is making sure that no file renames are necessary and everything in RB is good to go and you have made certain all new tracks have been exported to the xml file meaning we are now ready to programmatically set our cue points&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shut down RB&lt;/li&gt;
+  &lt;li&gt;From inside MiK, right click and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Export Cue Points&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I always do this twice&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reopen RB&lt;/li&gt;
+  &lt;li&gt;On the left hand navigation refresh and expand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rekordbox.xml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Scroll down till you see MiK playlist&lt;/li&gt;
+  &lt;li&gt;Select all the tracks in the playlist and tell them to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Import to collection&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;When it says the tracks are already in the collection and asks if you still want to import them say yes.&lt;/li&gt;
+  &lt;li&gt;Go view your playlist of new tracks and all the tracks should now have cue points&lt;/li&gt;
+  &lt;li&gt;Now go File &amp;gt; Export Collection in xml &amp;gt; name the file lowercase rekordbox.xml one more time to ensure everything is updated and sticks&lt;/li&gt;
+  &lt;li&gt;When asked to overwrite say yes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+
+&lt;p&gt;On occasion Platinum Notes will mess up a track bad as in either the volume is bizarely low or the track starts off fine then becomes mono part way through. If this happens just run the original track through PN again, listen and make sure its ok, then repeat the process above.&lt;/p&gt;
+
+&lt;p&gt;I believe the above captures all the steps of how to programmatically add cue points to get you playing music faster. If you believe I missed any steps please let me know (I know I have a TODO in for ReCK as its been a minute and I need to refresh myself - I will fix that in a few days). I hope this is helpful to beginner djs who want to save some time and improve there music collections.&lt;/p&gt;</content><author><name></name></author><summary type="html">Automated cue points</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/cue-points.png" /><media:content medium="image" url="http://localhost:4000/images/cue-points.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Shadow Tech 001 - Initial service review</title><link href="http://localhost:4000/blog/shadow-tech/" rel="alternate" type="text/html" title="Shadow Tech 001 - Initial service review" /><published>2020-12-19T00:00:00-07:00</published><updated>2020-12-19T00:00:00-07:00</updated><id>http://localhost:4000/blog/shadow-tech</id><content type="html" xml:base="http://localhost:4000/blog/shadow-tech/">&lt;h2 id=&quot;shadow-tech-001&quot;&gt;Shadow Tech 001&lt;/h2&gt;
+
+&lt;p&gt;So I promised myself I would be better about actually creating content this year and writing more regularly. This is something that is quite challenging for me as while I like the result, its hard to find the motivation to sit down and write these after my day job and everything else life requires these days. With that said tho I thought I would write a quick post about one of my most recent personal experiments which is trying to figure out how to always be able to bring my game library with me where ever I go and not to have to bring any bulky hardware with me. I’ve recently started traveling alot more and its not always feasable to bring gaming hardware outside of my macbook and we all know macs are not exactly gaming monsters. Additionally even with all the hubbub around the new generation of consoles I’ve decided this is the moment to consider joining the PC master race.&lt;/p&gt;
+
+&lt;p&gt;Outside of its another box to plug in or transport why have I decided that now is the moment to finally get on the PC bandwagon instead of consols?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ability to have a unified game library through Steam, GOG, Epic, as well as easy ability to retro game&lt;/li&gt;
+  &lt;li&gt;Still significantly more gpu power than any console (I will still eventually get a PS5 to replace my PS4 but that still wont touch a modern gpu)&lt;/li&gt;
+  &lt;li&gt;Modding - I desperatly want a beautiful Skyrim and to be able to try out some of the modded adventures&lt;/li&gt;
+  &lt;li&gt;Ability to stream your collection to all of your devices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Its the budding market for game streaming that has really peaked my interest and if I’m fully honest that is part of the reason for my previous posts on Unraid. While Unraid can do many many things one of those is the ability to host local and remote game streaming using a tool called &lt;a href=&quot;https://moonlight-stream.org&quot;&gt;Moonlight&lt;/a&gt; which uses the Nvidia Shield protocol. I can say that the combination of Moonight and Unraid do create for a wonderful in network streaming and can play Skyrim in glorious 4k without any issues that I noticed using only a GTX 1070. I can also attest to this solution working remotly over the internet but setup can be a bit touchy and your mileage may very (I’ll cover this in another post maybe). While this solution does work I am still stuck with a large computer in my house which uses a lot of electricity and causes a fair amount of heat and it certainly isn’t very portable.&lt;/p&gt;
+
+&lt;p&gt;My next consideration for a solution is to host a windows vm on gcp or aws and have moonlight run there and stream it to my various devices. Again I tested this solution (which I may possibly cover in a different post) and while it does work it is highly technical and out of reach for most ordinary folks (and this doesnt even cover understanding their esoteric billing practices).&lt;/p&gt;
+
+&lt;p&gt;Now enter &lt;a href=&quot;https://shadow.tech&quot;&gt;ShadowTech&lt;/a&gt; which bills itself as a game streaming service but is so so much more. ShadowTech provides you a full streaming instance of Windows with the equivalent of a GTX 1080 on their lowest tier along with 3.4ghz 4 cores, 8 threads, 12 gigs of ram and 256 gigs of ssd space for approximately $12/mo, which to be honest in my opinion is a really good deal for the quality of gaming this can produce. Not only are they offering stellar hardware for the price but they have really well developed clients for mac and ios that make connecting to this remote instance feel native. Now shadow does recommend having at least 15/5mb internet with no higher than 30ms ping to work optimally, part of my experiment with it is to see just how that actually fairs in real world practice while I travel.&lt;/p&gt;
+
+&lt;p&gt;What I can tell you so far is on a 100/10mb connection with an average of 50ms ping works without any issues that I could find. My test for this was I also have a PSNow subscription which I loaded into my streaming shadow which I had running on my macbook and I’ve played Horizon Zero Dawn for multiple hours with no noticible issues. I can also say this applies to running the shaddow client on both an iphone and ipad when on wifi it works great. Unfortunately, while I can get connected to shadow if I’m on LTE data alone I have yet to have a playable experience this way.  My next real test will be when my current trip is done and I return home where my home internet is only 30/4 with average pings in the 40ms range, I am concerned I may have issues with the upload being to small and I will certainly update this post once I find out.&lt;/p&gt;
+
+&lt;p&gt;So outside of mobile/streaming gaming what can you do with shadow? A few of the value propositions I see from this service are being able to nurse along older machines if your not quite ready to spring big bucks yet. Additionally it provides a fully customizable and transportable workspace for you that can litterally come with you where ever you have internet and your ready to go, there are alot of possibilities here.&lt;/p&gt;
+
+&lt;p&gt;At this point I am quite sold on this service and more than a little impressed with just the base tier, Shadow also offers 2 higher tiers both with more ram, cpu, and storage, but most notable a RTX 2080 or RTX Titan. Oh I also forgot to mention… SHADOW WILL DO YOUR HARDWARE UPGRADES FOR YOU AS YOU LIVE ON THE PLATFORM!!!! Meaning that at some point in the nearish future those higher level cards will become the base level cards and the top tiers will ahve 3080s and above.&lt;/p&gt;
+
+&lt;p&gt;With me obviously sold on this concept why should you be sold on this concept outside of my thoughts above? Here is the real reason I think Shadow is an amazing proposition to end users, before I randomly ran across Shadow I was getting ready to build a full new rig and I was estimating that cost to be roughly 4k (planning on purchasing a 3080 pre price hike). If I take 4000/12 = 333 repeating, so 333 months of Shadow or better put 333/12 = 27.7. A CLOUD BASED PC FOR APPRXIMATELY 28 YEARS WITH INCLUDED UPGRADES!!!! (unless my math is bad because I’m writting this in the middle of the night but either way a very long time). That is an insane deal, most computers need some sort of upgrade every 3 to 5 years which at a minimum will be several 100 dollars, using Shadow avoids investing in a severly depreciating asset. Now Shadow does have the limitation that you do need somewhat decent internet but I think thats a pretty small trade off vs a local machine.&lt;/p&gt;
+
+&lt;p&gt;Having taken a look at the basic example lets take a quick peak at both of Shadows higher tiers so the RTX 2080 at 25/mo and the RTX Titan at 40/mo (both tiers include more ram and storage as well). Applying the same rules as above I could pay for an RTX 2080 plan for 13+ years or a RTX Titan plan for 8+ years that will be upgraded automatically by Shadow in that time period for the cost of a single pc build today which will more than likely need you to spend more money to upgrade within the next few years. In my mind this value proposition is a no brainer due to how seemlessly it works and the extremly reasonable cost.&lt;/p&gt;
+
+&lt;p&gt;I will keep testing and do some follow up posts on what the limits of the service are but right now I am really beyond impressed. In the mean time how about you all help me out and sign up for this awesome service using my referal code “BEN1JYMW” (no quotes)? [Disclaimer for transparency, as thats what all good blogs do right? I am in no way shape or form associated with Shadow. This is NOT paid content and is my own review and if any of you do choose to sign up using my referal code I will get a small discount that will allow me to continue testing and better understanding the service. The referal code is available to anyone with an active Shadow account currently to my knowledge]&lt;/p&gt;
+
+&lt;p&gt;Hope everyone is having a good February, see you all next time.&lt;/p&gt;</content><author><name></name></author><summary type="html">My initial experience with Shadow Tech</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/shadow.png" /><media:content medium="image" url="http://localhost:4000/images/shadow.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole</title><link href="http://localhost:4000/blog/mac-blackhole-rekordbox/" rel="alternate" type="text/html" title="Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole" /><published>2020-12-19T00:00:00-07:00</published><updated>2020-12-19T00:00:00-07:00</updated><id>http://localhost:4000/blog/mac-blackhole-rekordbox</id><content type="html" xml:base="http://localhost:4000/blog/mac-blackhole-rekordbox/">&lt;h2 id=&quot;bedroom-dj-001---how-to-properly-configure-your-macos-audio-for-streaming-with-rekordbox-and-blackhole&quot;&gt;Bedroom Dj 001 - How to properly configure your MacOs audio for streaming with Rekordbox and Blackhole&lt;/h2&gt;
+
+&lt;p&gt;So you’ve been practicing your dj skills and are ready to try to start streaming you install what you think you need to complete the task and get ready to go live and everything looks good … except all your new online fans are posting they cant hear you :( This is an unfortunate reality for us mac users that will even catch the best of us off guard (ie first time I went live I ended up giving up all the streaming stuff from my machine and propped my phone up to watch me). Fortunately I have learned a good bit since then about how to setup streaming software and in solving audio passthrough issues. So you may now be asking “what do I need to do?” to enter this world of audio streaming bliss. To start we are going to install &lt;a href=&quot;https://obsproject.com&quot;&gt;OBS&lt;/a&gt; which best I can tell is pretty much considered the standard for most streamers followed by &lt;a href=&quot;https://github.com/ExistentialAudio/BlackHole&quot;&gt;BlackHole&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Being a tech guy I want to make this as fast and as streamlined as possible so we are going to install both of these tools with &lt;a href=&quot;https://brew.sh&quot;&gt;Brew&lt;/a&gt; (I wont be goig over how to install brew in this post but it is quite simple and there are directions on the brew page). So without further addo open up your terminal and execute the following&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew install --cask obs&lt;/code&gt;
+and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew install --cask blackhole-16ch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now with both of the above installed we need to configure blackhole as our audio device. If you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD-Space&lt;/code&gt; to open spotlight and type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Audio MIDI Setup.app&lt;/code&gt; and open you should see something like the following.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/open-midi.png&quot; alt=&quot;&quot; style=&quot;width:500px;height:600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/default-audio-devices-blackhole.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Next click on the PLUS sign and then choose Create Multi-Output Device, make sure everything looks exactly like the image below. Make sure Master device is your built in audio output and the built in is the top check box, if its not just uncheck and then re-check. What this setting config is allowing for telling your mac to send audio out of the speakers as well as send it to blackhole.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/blackhole-output-grp.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly for input click on the PLUS sign and then choose Create Aggregate Device and again make sure everything looks exact.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/blackhole-input-grp.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Once this is done you can click on the labels and rename them to something more appropriate if you like.&lt;/p&gt;
+
+&lt;p&gt;Now with blackhole configured it is important to select your new combined audio group as the actual audio output. You can do this by right clicking the audio group and selecting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use This Device For Sound Output&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;note-by-selecting-this-as-your-primary-audio-output-make-sure-your-volume-level-is-set-first-as-this-will-disable-your-volume-keys---you-will-only-be-able-to-manually-edit-the-volume-level-using-the-software-slider-while-this-group-is-slected-as-active&quot;&gt;Note: By selecting this as your primary audio output make sure your volume level is set first as this will disable your volume keys - you will only be able to manually edit the volume level using the software slider while this group is slected as active.&lt;/h5&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/select-audio-device.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;At this point go ahead and open your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Rekordbox&lt;/code&gt; application. Once Rekordbox is open, open your preferences&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/rb-open-preferences.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Then navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Audio&lt;/code&gt;, once on the audio tab in the in the audio grouping leave set to DDJ-xxx but make sure the checkbox &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Output audio from the computers built-in speakers...&lt;/code&gt; is checked. Then down under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Output channels &amp;gt; Master Output&lt;/code&gt; you should be able to select this and see your new combined audio output group you created in the previous step.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/rb-pref-config.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;note-that-rekordbox-is-somewhat-tempermental-about-this-and-you-may-need-to-open-and-close-the-app-a-few-times-before-it-shows-up-or-maybe-i-was-just-struggling-it-did-show-up-wihtout-to-much-issue-but-it-wasnt-on-the-first-time&quot;&gt;Note: that Rekordbox is somewhat tempermental about this and you may need to open and close the app a few times before it shows up (or maybe I was just struggling, it did show up wihtout to much issue but it wasnt on the first time).&lt;/h5&gt;
+
+&lt;p&gt;At this point you should have your new virtual audio driver (BlackHole) fully configured and Rekordbox should now be setup to send audio to it. Now how do we test this?&lt;/p&gt;
+
+&lt;p&gt;Now its time to open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OBS&lt;/code&gt;, do the same as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD-Space&lt;/code&gt; and type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OBS&lt;/code&gt; and enter. Obs should pop open on your screen. Next select the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scene&lt;/code&gt; then click the plus (+) in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sources&lt;/code&gt; box. Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Audio Output Capture&lt;/code&gt; as in the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/obs-new-audio-capture.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Give it a name&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/obs-create-new-audio-capture.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;In the box that opens then select blackhole 16ch&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/obs-select-blackhole.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Once added you should see a new volume item added to osb as below&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image center&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/obs-vol.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;To ensure everything is working play some music from Rekordbox and you should see the volume monitor moving around in OSB.&lt;/p&gt;
+
+&lt;p&gt;Thats it, you should be good to stream audio directly from your soundcard now, thanks for taking the time to stop by and check out my post.&lt;/p&gt;
+
+&lt;p&gt;This post was inspired by the source posts below and are combined here for clarity&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wearecrossfader.co.uk/blog/stream-from-rekordbox-with-no-soundcard/&quot;&gt;Source 1&lt;/a&gt;
+&lt;a href=&quot;https://wikis.utexas.edu/display/comm/How+to+set+up+BlackHole+Audio+on+a+Mac&quot;&gt;Source 2&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">MacOs virtual audio driver configuration</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/blackhole-logo.png" /><media:content medium="image" url="http://localhost:4000/images/blackhole-logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unraid 002 - How to autostart your encrypted unraid array</title><link href="http://localhost:4000/blog/howto-autostart-encrypted-unraid-array/" rel="alternate" type="text/html" title="Unraid 002 - How to autostart your encrypted unraid array" /><published>2020-12-12T00:00:00-07:00</published><updated>2020-12-12T00:00:00-07:00</updated><id>http://localhost:4000/blog/howto-autostart-encrypted-unraid-array</id><content type="html" xml:base="http://localhost:4000/blog/howto-autostart-encrypted-unraid-array/">&lt;h2 id=&quot;how-to-autostart-your-encrypted-unraid-array&quot;&gt;How to autostart your encrypted unraid array&lt;/h2&gt;
+
+&lt;p&gt;I will eventually come back and make sure these posts are in the correct order but for now they will be close. This goal of these posts is more for me to document my process along the way so I can easily recreate it in the future if need be and to try to help others along the way. As a secondary goal I want to stream line the documentation of doing this as it has taken me quite a bit of time to combine all the pieces of necessary information and I find reading a step by step document much easier than watching youtube videos.&lt;/p&gt;
+
+&lt;p&gt;Real quick why would you want to auto mount your encrypted array? Well there may be times you can’t manually login and auth yourself and this also prevents you from auto starting any of your VM’s, additionally its just a pain to have to manually do this on every reboot. Pulling in your keyfile from an outside source maintains reasonable security of your machine because if your machine were to ever be stolen all you would have to do would be to login to your google drive and delete your keyfile to keep the offending party from being able to boot your machine and retrieve your data. With that said lets get started…&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-sample-pass.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;To start create a simple text file on your local machine named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keyfile&lt;/code&gt; (with no extensions) and insert your passphrase, save. It is highly suggested that you do this using either SublimeText or Notepad++ as it is very important there are no empty spaces, tabs, or new lines in the file. It should look similar to the image to the left (see how there is only a single line? ie 1).&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-google-upload.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Once your keyfile is created then upload it your google drive (I suggest putting it in is own folder so its easy to keep track of)&lt;/p&gt;
+
+&lt;div style=&quot;page-break-after: always&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-google-share.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Then select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Get link&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-google-settings.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;And from the link page make sure you change the setting from “Restricted” to “Anyone with the link”&lt;/p&gt;
+
+&lt;p&gt;Now from here you just need to grab your file id (grayed out above), it should be between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/d/&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/view...&lt;/code&gt; in the shared url. At this point you are done with creating your keyfile.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-open-terminal.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Now from your Unraid page open terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-go-config.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;From terminal type the following command ie &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vi /boot/config/go&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once vi is open press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INSERT&lt;/code&gt; into your file and add the following to your go file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget &apos;https://docs.google.com/uc?export=download&amp;amp;id=YOUR-FILE-ID-HERE&apos; -O /root/keyfile&lt;/code&gt;. After having added the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; line press the escape key to get out of insert mode then press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:wq&lt;/code&gt; to write your file and quite back to terminal.&lt;/p&gt;
+
+&lt;p&gt;Note: You may also use this command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget --no-check-certificate &apos;https://docs.google.com/uc?export=download&amp;amp;id=YOUR-FILE-ID-HERE&apos; -O /root/keyfile&lt;/code&gt; as suggested &lt;a href=&quot;https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99&quot;&gt;here&lt;/a&gt; personally I have not found any difference between the two.&lt;/p&gt;
+
+&lt;p&gt;Second Note: I’m not certain what version of vi Unraid has installed but its oldschool, if you need to delete navigate your cursor over the character to delete and press x. For more details on ancient vi look &lt;a href=&quot;https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-46/index.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-wget-keyfile.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;At this point all the command line work is done now go back to your unraid in the browser and click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Settings&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disk Settings&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-disk-settings.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Once in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Disk Settings&lt;/code&gt; set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enable auto start&lt;/code&gt; to yes and click apply.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;image left&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/unraid-002-disk-auto-start.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Now reboot unraid and it should auto authenticat your encrypted array and mount your disks automatically.&lt;/p&gt;
+
+&lt;p&gt;Finally a shout out to the excellent tutorials by Space Invader One for his excelent tutorials where much of this information is derived from https://www.youtube.com/watch?v=TSlHEBR1yfY&lt;/p&gt;</content><author><name></name></author><summary type="html">Save time starting unraid and make remote start easier</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/unraid.jpg" /><media:content medium="image" url="http://localhost:4000/images/unraid.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unraid 001 - How to install the most powerful home os you own</title><link href="http://localhost:4000/blog/howto-install-unraid/" rel="alternate" type="text/html" title="Unraid 001 - How to install the most powerful home os you own" /><published>2020-11-12T00:00:00-07:00</published><updated>2020-11-12T00:00:00-07:00</updated><id>http://localhost:4000/blog/howto-install-unraid</id><content type="html" xml:base="http://localhost:4000/blog/howto-install-unraid/">&lt;h2 id=&quot;how-to-install-the-most-powerful-home-os-you-own&quot;&gt;How to install the most powerful home os you own&lt;/h2&gt;
+
+&lt;p&gt;Sorry guys this is currently a place holder&lt;/p&gt;</content><author><name></name></author><summary type="html">Easy, quick, simple install of Unraid</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/unraid.jpg" /><media:content medium="image" url="http://localhost:4000/images/unraid.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Initial Post - So I dont forget how my new theme works</title><link href="http://localhost:4000/blog/initial-post/" rel="alternate" type="text/html" title="Initial Post - So I dont forget how my new theme works" /><published>2020-05-19T00:00:00-06:00</published><updated>2020-05-19T00:00:00-06:00</updated><id>http://localhost:4000/blog/initial-post</id><content type="html" xml:base="http://localhost:4000/blog/initial-post/">&lt;h2 id=&quot;remembering-how-to-create-new-posts&quot;&gt;Remembering how to create new posts&lt;/h2&gt;
 
 &lt;p&gt;This is pretty much it for now&lt;/p&gt;</content><author><name></name></author><summary type="html">Trying not to forget how this new new Jekyll thing works</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/pic02.jpg" /><media:content medium="image" url="http://localhost:4000/images/pic02.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

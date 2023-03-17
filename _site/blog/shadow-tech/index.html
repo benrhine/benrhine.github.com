@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Shadow Tech 001 - Initial service review</title>
+<meta name="description" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/assets/icon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="http://localhost:4000/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://localhost:4000/assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="http://localhost:4000/" class="logo">Ben Rhine</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <li class=""><a href="http://localhost:4000/">Home</a></li>
+  <li class=""><a href="http://localhost:4000/about/">About</a></li>
+  <li class=""><a href="http://localhost:4000/music/">Music</a></li>
+  <li class=""><a href="http://localhost:4000/projects/">Projects</a></li>
+  <li class=""><a href="http://localhost:4000/training/">Training</a></li>
+  <li class=""><a href="http://localhost:4000/consulting/">Consulting</a></li>
+  <li class=" active "><a href="http://localhost:4000/blog/">Blog</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+  <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+</ul>
+
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">19 Dec 2020</span>
+      				<h1>Shadow Tech 001 - Initial service review</h1>
+      				<p>My initial experience with Shadow Tech</p>
+      			</header>
+      			<div class="image main"><img src="/images/shadow.png" alt=""></div>
+      			<p><h2 id="shadow-tech-001">Shadow Tech 001</h2>
+
+<p>So I promised myself I would be better about actually creating content this year and writing more regularly. This is something that is quite challenging for me as while I like the result, its hard to find the motivation to sit down and write these after my day job and everything else life requires these days. With that said tho I thought I would write a quick post about one of my most recent personal experiments which is trying to figure out how to always be able to bring my game library with me where ever I go and not to have to bring any bulky hardware with me. I’ve recently started traveling alot more and its not always feasable to bring gaming hardware outside of my macbook and we all know macs are not exactly gaming monsters. Additionally even with all the hubbub around the new generation of consoles I’ve decided this is the moment to consider joining the PC master race.</p>
+
+<p>Outside of its another box to plug in or transport why have I decided that now is the moment to finally get on the PC bandwagon instead of consols?</p>
+<ul>
+  <li>Ability to have a unified game library through Steam, GOG, Epic, as well as easy ability to retro game</li>
+  <li>Still significantly more gpu power than any console (I will still eventually get a PS5 to replace my PS4 but that still wont touch a modern gpu)</li>
+  <li>Modding - I desperatly want a beautiful Skyrim and to be able to try out some of the modded adventures</li>
+  <li>Ability to stream your collection to all of your devices</li>
+</ul>
+
+<p>Its the budding market for game streaming that has really peaked my interest and if I’m fully honest that is part of the reason for my previous posts on Unraid. While Unraid can do many many things one of those is the ability to host local and remote game streaming using a tool called <a href="https://moonlight-stream.org">Moonlight</a> which uses the Nvidia Shield protocol. I can say that the combination of Moonight and Unraid do create for a wonderful in network streaming and can play Skyrim in glorious 4k without any issues that I noticed using only a GTX 1070. I can also attest to this solution working remotly over the internet but setup can be a bit touchy and your mileage may very (I’ll cover this in another post maybe). While this solution does work I am still stuck with a large computer in my house which uses a lot of electricity and causes a fair amount of heat and it certainly isn’t very portable.</p>
+
+<p>My next consideration for a solution is to host a windows vm on gcp or aws and have moonlight run there and stream it to my various devices. Again I tested this solution (which I may possibly cover in a different post) and while it does work it is highly technical and out of reach for most ordinary folks (and this doesnt even cover understanding their esoteric billing practices).</p>
+
+<p>Now enter <a href="https://shadow.tech">ShadowTech</a> which bills itself as a game streaming service but is so so much more. ShadowTech provides you a full streaming instance of Windows with the equivalent of a GTX 1080 on their lowest tier along with 3.4ghz 4 cores, 8 threads, 12 gigs of ram and 256 gigs of ssd space for approximately $12/mo, which to be honest in my opinion is a really good deal for the quality of gaming this can produce. Not only are they offering stellar hardware for the price but they have really well developed clients for mac and ios that make connecting to this remote instance feel native. Now shadow does recommend having at least 15/5mb internet with no higher than 30ms ping to work optimally, part of my experiment with it is to see just how that actually fairs in real world practice while I travel.</p>
+
+<p>What I can tell you so far is on a 100/10mb connection with an average of 50ms ping works without any issues that I could find. My test for this was I also have a PSNow subscription which I loaded into my streaming shadow which I had running on my macbook and I’ve played Horizon Zero Dawn for multiple hours with no noticible issues. I can also say this applies to running the shaddow client on both an iphone and ipad when on wifi it works great. Unfortunately, while I can get connected to shadow if I’m on LTE data alone I have yet to have a playable experience this way.  My next real test will be when my current trip is done and I return home where my home internet is only 30/4 with average pings in the 40ms range, I am concerned I may have issues with the upload being to small and I will certainly update this post once I find out.</p>
+
+<p>So outside of mobile/streaming gaming what can you do with shadow? A few of the value propositions I see from this service are being able to nurse along older machines if your not quite ready to spring big bucks yet. Additionally it provides a fully customizable and transportable workspace for you that can litterally come with you where ever you have internet and your ready to go, there are alot of possibilities here.</p>
+
+<p>At this point I am quite sold on this service and more than a little impressed with just the base tier, Shadow also offers 2 higher tiers both with more ram, cpu, and storage, but most notable a RTX 2080 or RTX Titan. Oh I also forgot to mention… SHADOW WILL DO YOUR HARDWARE UPGRADES FOR YOU AS YOU LIVE ON THE PLATFORM!!!! Meaning that at some point in the nearish future those higher level cards will become the base level cards and the top tiers will ahve 3080s and above.</p>
+
+<p>With me obviously sold on this concept why should you be sold on this concept outside of my thoughts above? Here is the real reason I think Shadow is an amazing proposition to end users, before I randomly ran across Shadow I was getting ready to build a full new rig and I was estimating that cost to be roughly 4k (planning on purchasing a 3080 pre price hike). If I take 4000/12 = 333 repeating, so 333 months of Shadow or better put 333/12 = 27.7. A CLOUD BASED PC FOR APPRXIMATELY 28 YEARS WITH INCLUDED UPGRADES!!!! (unless my math is bad because I’m writting this in the middle of the night but either way a very long time). That is an insane deal, most computers need some sort of upgrade every 3 to 5 years which at a minimum will be several 100 dollars, using Shadow avoids investing in a severly depreciating asset. Now Shadow does have the limitation that you do need somewhat decent internet but I think thats a pretty small trade off vs a local machine.</p>
+
+<p>Having taken a look at the basic example lets take a quick peak at both of Shadows higher tiers so the RTX 2080 at 25/mo and the RTX Titan at 40/mo (both tiers include more ram and storage as well). Applying the same rules as above I could pay for an RTX 2080 plan for 13+ years or a RTX Titan plan for 8+ years that will be upgraded automatically by Shadow in that time period for the cost of a single pc build today which will more than likely need you to spend more money to upgrade within the next few years. In my mind this value proposition is a no brainer due to how seemlessly it works and the extremly reasonable cost.</p>
+
+<p>I will keep testing and do some follow up posts on what the limits of the service are but right now I am really beyond impressed. In the mean time how about you all help me out and sign up for this awesome service using my referal code “BEN1JYMW” (no quotes)? [Disclaimer for transparency, as thats what all good blogs do right? I am in no way shape or form associated with Shadow. This is NOT paid content and is my own review and if any of you do choose to sign up using my referal code I will get a small discount that will allow me to continue testing and better understanding the service. The referal code is available to anyone with an active Shadow account currently to my knowledge]</p>
+
+<p>Hope everyone is having a good February, see you all next time.</p>
+
+</p>
+      		</section>
+
+          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '/blog/shadow-tech/';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '/blog/shadow-tech/'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://default.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div><!-- /.comments-wrapper -->
+
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li><a href="http://localhost:4000/blog/" class="button">My Blog</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <footer id="footer">
+  <section>
+    <form method="POST" action="https://api.slapform.com/rhine.ben@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+      <input type="hidden" name="slap_redirect" value="http://localhost:4000/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Denver, CO</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="tel:614-545-8725">614-545-8725</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:rhine.ben@gmail.com">rhine.ben@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; HTML5 UP</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
+<script src="http://localhost:4000/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/assets/js/util.js"></script>
+<script src="http://localhost:4000/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FSDNJ7DYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FSDNJ7DYC');
+</script>
+
+	</body>
+</html>
