@@ -18,11 +18,9 @@ You may ask "Why build another semantic versioning plugin"? Well, because I trie
 none of them worked how I wanted them to work, or they might have, but even testing several recent ones I had trouble
 getting them to work correctly due to missing documentation.
 
-**Note: Currently, the plugin is still waiting for approval at `plugins.gradle.org` so as of the writing of this post
-if you want to try it out you will need to pull it down from [GitHub](https://github.com/benrhine/semantic-versioning-with-build-number)
-and build it yourself. I expect it will be available from the official repository in the next several days. This post
-is intended to be part of the documentation, so it was written alongside the plugin. I will update this post once it is
-officially available.**
+Plugins are currently available at `plugins.gradle.org`, search for `benrhine` or follow the links below.
+- [semantic-versioning-with-build-number](https://plugins.gradle.org/plugin/com.benrhine.semantic-versioning-with-build-number)
+- [semantic-versioning-with-build-number-kotlin](https://plugins.gradle.org/plugin/com.benrhine.semantic-versioning-with-build-number-kotlin)
 
 ### How did I want it to work?
 So how did I want it to work? I wanted the plugin to fully take over setting the `version` variable within any gradle project.
@@ -133,3 +131,5 @@ So what [tasks](https://github.com/benrhine/semantic-versioning-with-build-numbe
 #### Project References
 - [GitHub Repo](https://github.com/benrhine/semantic-versioning-with-build-number)
 - [Detailed Documentation](https://github.com/benrhine/semantic-versioning-with-build-number/blob/main/README.md)
+- [semantic-versioning-with-build-number](https://plugins.gradle.org/plugin/com.benrhine.semantic-versioning-with-build-number)
+- [semantic-versioning-with-build-number-kotlin](https://plugins.gradle.org/plugin/com.benrhine.semantic-versioning-with-build-number-kotlin)
