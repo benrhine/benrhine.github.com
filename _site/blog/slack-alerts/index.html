@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Gradle Plugin 002 - Slack Alerts</title>
+<meta name="description" content="">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/assets/icon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<meta name="msapplication-config" content="http://localhost:4000/assets/icon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- CSS -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://localhost:4000/assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+        <header id="header">
+          <a href="http://localhost:4000/" class="logo">Ben Rhine</a>
+        </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+  <li class=""><a href="http://localhost:4000/">Home</a></li>
+  <li class=""><a href="http://localhost:4000/about/">About</a></li>
+  <li class=""><a href="http://localhost:4000/music/">Music</a></li>
+  <li class=""><a href="http://localhost:4000/projects/">Projects</a></li>
+  <li class=""><a href="http://localhost:4000/training/">Training</a></li>
+  <li class=""><a href="http://localhost:4000/consulting/">Consulting</a></li>
+  <li class=" active "><a href="http://localhost:4000/blog/">Blog</a></li>
+</ul>
+
+<ul class="icons">
+  <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+  <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+</ul>
+
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+          <section class="post">
+    				<header class="major">
+      				<span class="date">04 Apr 2023</span>
+      				<h1>Gradle Plugin 002 - Slack Alerts</h1>
+      				<p>Slack Alerts</p>
+      			</header>
+      			<div class="image main"><img src="/images/gradle.jpg" alt=""></div>
+      			<p><h2 id="gradle-plugin-002---slack-alerts">Gradle Plugin 002 - Slack Alerts</h2>
+
+<p>For my next plugin I wanted to vastly simplify how to send slack alerts from a Gradle build. This is something I have done
+extensively over the last few years but have primarily leveraged cURL in order to achieve. While there is nothing wrong
+with using cURL to do this I wanted a more idiomatic way of accomplishing this. Similar to my <a href="https://benrhine.com/blog/semantic-versioning-with-build-number/">semantic-versioning-with-build-number plugin</a>
+I was unable to find an existing plugin that functioned the way I wanted it to, so I have created my own <code class="language-plaintext highlighter-rouge">slack-alerts-groovy</code>
+plugin.</p>
+
+<p>So why did I create this plugin? Well I had found some other plugins that did great static alerts but were not capable of 
+doing any kind of dynamic alerts. I found this exceptionally odd as the reason you would want to send most alerts from your
+build requires that they be dynamic. It’s great to send a Slack message that tells you a build started … it’s better to
+send one that tells you your tests passed, what the test count is, and your coverage report.</p>
+
+<p>Plugins are currently available at <code class="language-plaintext highlighter-rouge">plugins.gradle.org</code>, search for <code class="language-plaintext highlighter-rouge">benrhine</code> or follow the links below.</p>
+<ul>
+  <li><a href="https://plugins.gradle.org/plugin/com.benrhine.slack-alerts-groovy">slack-alerts-groovy</a></li>
+  <li>I may add a kotlin version of this in the future</li>
+</ul>
+
+<p><strong>Note: This plugin has been tested with both legacy Slack WebHooks and Slack Bots, and it works with both.</strong></p>
+
+<h3 id="overview">Overview</h3>
+<p>I am not going to go into full documentation on how it works or how to use it in this post. For those details please go
+read the rigorous documentation I have put together <a href="https://github.com/benrhine/slack-alerts-groovy">here</a>. This plugin
+supports global config of common properties, as many static Slack messages as you wish to configure, and ten predefined
+dynamic alerts for test results and application health.</p>
+
+<h4 id="how-to-include-in-your-project">How to include in YOUR project.</h4>
+<p>If you are using modern gradle …</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plugins</span> <span class="o">{</span>
+    <span class="n">id</span> <span class="s1">'com.benrhine.slack-alerts-groovy'</span> <span class="n">version</span> <span class="s1">'0.0.1'</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>If you are using older gradle or attempting to build the plugin from source …</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">buildscript</span> <span class="o">{</span>
+    <span class="n">repositories</span> <span class="o">{</span>
+        <span class="n">maven</span> <span class="o">{</span>
+            <span class="n">url</span> <span class="o">=</span> <span class="n">uri</span><span class="o">(</span><span class="s2">"https://plugins.gradle.org/m2/"</span><span class="o">)</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="n">dependencies</span> <span class="o">{</span>
+        <span class="n">classpath</span><span class="o">(</span><span class="s2">"com.benrhine:slack-alerts-groovy:0.0.1"</span><span class="o">)</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="n">plugins</span> <span class="o">{</span>
+  
+<span class="o">}</span>
+
+<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">'com.benrhine.slack-alerts-groovy'</span>
+</code></pre></div></div>
+
+<h3 id="configuration">Configuration</h3>
+<p>Similar to the versioning plugin I wanted the configuration to be super easy. You can apply the plugin with no config and 
+your build will not be affected prior to you adding any config. Additionally, you do not need to use the global config
+unless you want to. For full details on default configuration see <a href="https://github.com/benrhine/slack-alerts-groovy#configuration">here</a>.
+If you wish to use the global config you may add the block below.</p>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">slackConfig</span> <span class="o">{</span>
+    <span class="n">environment</span> <span class="o">=</span> <span class="s2">""</span>        <span class="c1">// (Optional) Define what environment an alert is coming from</span>
+    <span class="n">webHook</span> <span class="o">=</span> <span class="s2">""</span>            <span class="c1">// (Optional) Define the webHook url</span>
+    <span class="n">uploadUrl</span> <span class="o">=</span> <span class="s2">""</span>          <span class="c1">// (Optional) Define the upload url</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="s2">""</span>              <span class="c1">// (Optional) Define the auth token for a slack bot</span>
+    <span class="n">channels</span> <span class="o">=</span> <span class="s2">""</span>           <span class="c1">// (Optional) Define channel or channels</span>
+    <span class="n">payload</span> <span class="o">=</span> <span class="s2">""</span>            <span class="c1">// (Optional) Additional payload</span>
+    <span class="n">displayLogging</span> <span class="o">=</span> <span class="s2">""</span>     <span class="c1">// (Optional) Define if logging is enabled</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="predefined-alerts--tasks">Predefined Alerts / Tasks</h3>
+<p>So what <a href="https://github.com/benrhine/slack-alerts-groovy#dynamically-generated-alerts">alerts / tasks</a> are available out of the box?
+Be aware the following still require you to declare these blocks in your Gradle DSL in order to function. Also, if you
+name your DSL block something different the generated alert / task name will be somewhat different, these work off the
+core portion of the DSL block name (i.e. unitTest, intTest, ect…) so if you want to name your DSL block <code class="language-plaintext highlighter-rouge">myUnitTestExtreme</code>
+you absolutely can but now your generated task name will be <code class="language-plaintext highlighter-rouge">sendMyUnitTestExtremeAlert</code>.</p>
+<h4 id="sendunittestalert">sendUnitTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendUnitTestAlert 
+</code></pre></div></div>
+
+<h4 id="sendunittestresult">sendUnitTestResult</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendUnitTestResult
+</code></pre></div></div>
+
+<h4 id="sendinttestalert">sendIntTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendIntTestAlert
+</code></pre></div></div>
+
+<h4 id="sendinttestresult">sendIntTestResult</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendIntTestResult
+</code></pre></div></div>
+
+<h4 id="sendloadtestalert">sendLoadTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendLoadTestAlert
+</code></pre></div></div>
+
+<h4 id="sendauthenticatedsmoketestalert">sendAuthenticatedSmokeTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendAuthenticatedSmokeTestAlert
+</code></pre></div></div>
+
+<h4 id="sendvalidationsmoketestalert">sendValidationSmokeTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendValidationSmokeTestAlert
+</code></pre></div></div>
+
+<h4 id="sendunauthenticatedsmoketestalert">sendUnauthenticatedSmokeTestAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendUnauthenticatedSmokeTestAlert
+</code></pre></div></div>
+
+<h4 id="sendapplicationhealthcheckalert">sendApplicationHealthCheckAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendApplicationHealthCheckAlert
+</code></pre></div></div>
+
+<h4 id="sendapplicationinfoalert">sendApplicationInfoAlert</h4>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./gradlew sendApplicationInfoAlert
+</code></pre></div></div>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>Since the alert names are generated this can cause build annoyances from time to time if you change a DSL block name and
+the alert / task name is not regenerated. If this happens comment out any usages of the alert, comment out the dsl block,
+clean the project, then reload Gradle, uncomment the usages, and reload Gradle again, and it should resolve the issue.</p>
+
+<h4 id="project-references">Project References</h4>
+<ul>
+  <li><a href="https://github.com/benrhine/slack-alerts-groovy">GitHub Repo</a></li>
+  <li><a href="https://github.com/benrhine/slack-alerts-groovy/blob/main/README.md">Detailed Documentation</a></li>
+  <li><a href="https://plugins.gradle.org/plugin/com.benrhine.slack-alerts-groovy">slack-alerts-groovy</a></li>
+</ul>
+</p>
+      		</section>
+
+          <div class="comments-wrapper">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+
+              var disqus_config = function () {
+                  this.page.url = '/blog/slack-alerts/';  /*Replace PAGE_URL with your page's canonical URL variable*/
+                  this.page.identifier = '/blog/slack-alerts/'; /*Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+              };
+
+              (function() {  /* dont endit below this line */
+                  var d = document, s = d.createElement('script');
+
+                  s.src = 'https://default.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div><!-- /.comments-wrapper -->
+
+
+					<!-- Footer -->
+						<footer>
+              <ul class="actions">
+                <li><a href="http://localhost:4000/blog/" class="button">My Blog</a></li>
+              </ul>
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        <footer id="footer">
+  <section>
+    <form method="POST" action="https://api.slapform.com/rhine.ben@gmail.com">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" name="slap_replyto" id="email" /> <!-- slap_replyto will set the reply-to as the submitter's email! -->
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+      <input type="hidden" name="slap_redirect" value="http://localhost:4000/thank-you" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Location</h3>
+      <p>Denver, CO</p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="tel:614-545-8725">614-545-8725</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:rhine.ben@gmail.com">rhine.ben@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li><a href="https://twitter.com/benrhine" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/benrhine" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        <li><a href="https://linkedin.com/in/benrhine" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; HTML5 UP</li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li><li>Jekyll Integration by <a href="https://slapform.com">Slapform</a> </li></ul>
+</div>
+
+
+			</div>
+
+      <!-- Scripts -->
+  		<!-- DYN -->
+<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
+<script src="http://localhost:4000/assets/js/skel.min.js"></script>
+<script src="http://localhost:4000/assets/js/util.js"></script>
+<script src="http://localhost:4000/assets/js/main.js"></script>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FSDNJ7DYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FSDNJ7DYC');
+</script>
+
+	</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gradle Plugin 001 - Semantic versioning with build number"
-date:   2022-04-09
+date:   2023-03-17
 excerpt: "Semantic versioning with build number"
 image: "/images/gradle.jpg"
 ---
